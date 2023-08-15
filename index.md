@@ -4,7 +4,7 @@ layout: page
 
 # 1234
 
-<img src="https://caihanlin.com/caihanlin.jpg" class="floatpic" width="360" height="480">
+<img src="/images/caihanlin.jpg" class="floatpic" width="360" height="480">
 
 Here is **Hanlin Cai (Lance, [蔡汉霖](https://caihanlin.com/file/蔡汉霖简历.pdf))**.
 
