@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+      <loc>https://caihanlin.com/</loc>
+    </url>
+    <url>
+      <loc>https://caihanlin.com/file/Resume-HanlinCAI.pdf</loc>
+    </url>
+    <url>
+      <loc>https://caihanlin.com/publications/</loc>
+    </url>    
+    <url>
+      <loc>https://caihanlin.com/projects/</loc>
+    </url>
+    <url>
+      <loc>https://caihanlin.com/awards/</loc>
+    </url>   
+    <url>
+      <loc>https://caihanlin.com/hobbies/</loc>
+    </url>
+    <url>
+      <loc>https://caihanlin.com/blogs/</loc>
+    </url>
+
+    
+</urlset>
+
+<!-- 这个页面是否配置并不影响正常显示，重点关注_config.yml文件的配置即可 -->
+<!-- Lastly update by Hanlin CAI in 2023/04/26 -->

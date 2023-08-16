@@ -2,13 +2,18 @@
 layout: page
 ---
 
-# 1234
+# About Me
 
-<img src="/images/caihanlin.jpg" class="floatpic" width="360" height="480">
+<img src="/images/jiachenghuang.jpg" class="floatpic" width="360" height="480">
 
-Here is **Hanlin Cai (Lance, [蔡汉霖](https://caihanlin.com/file/蔡汉霖简历.pdf))**.
+Here is **Jiacheng Huang (Kano)**.
 
+
+Welcome to my academic homepage! I am a third-year student studying Electronic Information Engineering at Fuzhou University and Maynooth University (Ireland) for a dual degree. Throughout my career, I have been dedicated to exploring the fascinating world of embedded systems and I am excited to collaborate with you or engage in discussions on related topics. Let's explore the limitless potential of embedded systems together!
+
+<!--
 I am a senior student majoring in **Automation** at Fuzhou University and **Robotics** at Maynooth University (Ireland, Combined Degrees). Currently, I am working as a research assistant in the **IACTIP Lab** (Provincial Key), advised by [Prof. Zhezhuang Xu](https://www.researchgate.net/profile/Zhezhuang-Xu). Here is [my CV](https://caihanlin.com/file/CV-HanlinCAI.pdf).
+-->
 
 <br>
 
