@@ -2,19 +2,20 @@ title: Jiacheng Huang
 # tagline: Two roads diverged in woods, I took the one less traveled by.
 description: Two roads diverged in woods, I took the one less traveled by.
 #Comment out url when working locally to resolve base urls correctly
-url: https://caihanlin.com
+url: https://github.com/Kanomace
 
 # Owner/author information
 owner:
-  name: Hanlin Cai
-  avatar: hanlin.jpg
+  name: Jiacheng Huang
+  avatar: sun.jpg
 #  bio:
-  email: hanlin.cai@ieee.org
+  email: 3065566279@qq.com
+  wechat: https://github.com/Kanomace
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter: lancecai2002
   # facebook: caihanlin2002
-  github: GuangLun2000
-  linkedin: hanlincai
+  github: Kanomace
+  #linkedin: hanlincai
   scholar: https://scholar.google.com/citations?user=8igSoWgAAAAJ
   # instagram: lancecai2002
   # lastfm:
@@ -35,15 +36,15 @@ links:
   - title: About Me
     url: /
   - title: Resume
-    url: /file/CV-HanlinCAI.pdf
+    url: /file/CV-Jiacheng Huang.pdf
   - title: Publications
     url: /publications/
   - title: Awards
     url: /awards/
   - title: Fundings
     url: /fundings/
-  - title: Hobbies
-    url: /hobbies/
+  #- title: Hobbies
+  #  url: /hobbies/
   - title: Blogs
     url: /blogs/
 

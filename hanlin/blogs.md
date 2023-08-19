@@ -8,7 +8,7 @@ title: Blogs
 
 ### 2023
 
-- [206智能车队硬件培训](https://https://github.com/Kanomace/Kanomace.github.io/blogs/yingjian)
+- [关于数学建模竞赛](https://caihanlin.com/blogs/team2023)
 - [极简风个人网站搭建指南](https://caihanlin.com/blogs/web)
 
 ### 2022
