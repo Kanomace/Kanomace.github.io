@@ -41,8 +41,8 @@ links:
     url: /awards/
   - title: Fundings
     url: /fundings/
-  - title: Hobbies
-    url: /hobbies/
+  #- title: Hobbies
+  #  url: /hobbies/
   - title: Blogs
     url: /blogs/
 

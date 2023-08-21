@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/yingjian/index.html
+permalink: /blogs/206yingjian/index.html
 title: 福州大学206智能车队硬件培训
 ---
 
