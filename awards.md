@@ -34,5 +34,7 @@ title: Awards
 - 2023年02月：第25届国际大学生数学建模竞赛**S奖**
 
 <br>[English Version (英文)](https://jiachenghuang.com/awards/)
+---
 <br>Under Construction
+
 
