@@ -4,4 +4,8 @@ permalink: /news/index.html
 title: news
 ---
 
-Under Construction
+<br>Some Good News And Plan~
+
+
+
+<br>Under Construction
