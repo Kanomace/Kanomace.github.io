@@ -33,8 +33,9 @@ title: Awards
 - 2023年07月：第18届全国大学生智能汽车竞赛华南赛区**优胜奖**
 - 2023年02月：第25届国际大学生数学建模竞赛**S奖**
 
-<br>[English Version (英文)](https://jiachenghuang.com/awards/)
+
 ---
+[English Version (英文)](https://jiachenghuang.com/awards/)
 <br>Under Construction
 
 
