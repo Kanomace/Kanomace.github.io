@@ -123,7 +123,7 @@ title: 福州大学206智能车队硬件培训
 <br>PCB设计示例可以参考车队的[B站视频](https://space.bilibili.com/3461573251172869?spm_id_from=333.337.0.0)
 
 4. **电路板发厂**
-<br>对于10cm X 10cm 以内的电路板，嘉立创每月有两次免费打版的机会，不过仅限于使用立创EDA设计的PCB。使用AD设计时，需要用到一个插件[**GerBer to EDA**]。
+<br>对于10cm X 10cm 以内的电路板，嘉立创每月有两次免费打版的机会，不过仅限于使用立创EDA设计的PCB。使用AD设计时，需要用到一个插件[**GerBer to EDA**](https://github.com/Kanomace/206Hardware/tree/main/GerBer%20to%20EDA)
 <br>电路板发厂可以参考车队的[B站视频](https://space.bilibili.com/3461573251172869?spm_id_from=333.337.0.0)
 
 5. **电路板焊接**
@@ -145,7 +145,7 @@ title: 福州大学206智能车队硬件培训
 
 这里是车队传承下来以及我个人整理的的资料
 
-[黄家成的github仓库](https://github.com/Kanomace)
+[黄家成的github仓库](https://github.com/Kanomace/206Hardware)
 
 大家只需
 - ~~点击右上角的Starred，为我助力~~
