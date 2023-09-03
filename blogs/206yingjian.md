@@ -31,7 +31,7 @@ title: 福州大学206智能车队硬件培训
 #### Altium Designer
 
 <center>
-<img src = "/blogs/206yingjian.assets/AD.png">
+<img src = "/blogs/206yingjian.assets/AD21.png">
 </center>
 
 <br>**AD**是一款功能强大的 PCB（*Printed Circuit Board，印刷电路板*）绘制软件，也是我们实验室目前所统一使用的。AD 提供了完整的 PCB 设计流程，包括**原理图绘制、PCB 布局、元件布局和布线**等。我们车队有关的芯片封装库都是AD的库文件。
