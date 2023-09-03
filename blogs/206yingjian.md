@@ -62,6 +62,10 @@ title: 福州大学206智能车队硬件培训
 
 #### 主控板
 
+<center>
+<img src = "/blogs/206yingjian.assets/My_zhukong.png">
+</center>
+
 **主控板**是整个智能车的"大脑"，也是硬件同学主要需要设计的部分，大部分的设计电路可以在逐飞母版的开源文件中找到。但是我们仍需对其进行修改，例如整体的布局，电源管理或者所需要的IO口的修改等等。
 
 <br>对于主控电路板，主要包含以下部分:
@@ -82,6 +86,10 @@ title: 福州大学206智能车队硬件培训
 设计IO接口是硬件同学的基本功，按键等功能普通的IO都可以胜任，但是在特殊的情况下(例如PWM输出或者ADC采集)，需要用到特定的IO口，这需要查看所使用的核心板和芯片的芯片手册。(这是逐飞的[推荐IO](https://github.com/Kanomace/Kanomace.github.io/blob/main/blogs/206yingjian.assets/%E6%8E%A8%E8%8D%90IO%E5%88%86%E9%85%8D.txt))
 
 #### 驱动板
+
+<center>
+<img src = "/blogs/206yingjian.assets/My_danqu.png">
+</center>
 
 智能车中的驱动板是用来控制车辆的电动驱动系统的关键组件之一。它的主要功能是接收来自主控板的`PWM`控制信号，并将其转化为电流或电压信号，以控制电动马达，使车辆能够高效、精确地执行各种操作和动作。
 
