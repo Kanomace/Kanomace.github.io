@@ -13,4 +13,9 @@ title: Publications
 - Detecting Multiple-mix-attack in IoT Networks through Reconstruction and Classiﬁcation Machine Learning Techniques<br>Sensors MDPI Journal (IF: 3.847, JCR Q2).<br> Under review.
 
 ---
+
+## Conference Paper
+
+- Research on automatic pricing and replenishment decision of vegetable commodities based on penalty function LSTM model<br>2023 International Conference on Information Engineering, Electronics and Communication Technology **(IEECT 2023)**
+
 <br>Under Construction

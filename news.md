@@ -7,7 +7,7 @@ title: news
 #### Some Good News and Plan~
 
 - 2023.09：发表EI会议论文:
-<br>**Research and Design of Unicycle Robot based on Cascade PID Control**
+<br>**Research on automatic pricing and replenishment decision of vegetable commodities based on penalty function LSTM model**
 
 - 2023.08：设计企业合作项目:
 <br>**智能矿业风门控制系统**
