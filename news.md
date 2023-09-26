@@ -7,6 +7,9 @@ title: news
 #### Some Good News and Plan~
 
 - 2023.09：发表EI会议论文:
+<br>**Research and Design of Unicycle Robot Based on Cascade PID Control**
+
+- 2023.09：发表EI会议论文:
 <br>**Research on automatic pricing and replenishment decision of vegetable commodities based on penalty function LSTM model**
 
 - 2023.08：设计企业合作项目:
@@ -18,7 +21,7 @@ title: news
 - 2023.07：完成暑期科研项目:
 <br>**微控制器在智能体设计及3D打印等数字制造的应用研究**
 
-- 2023.08：加入科技园902实验室
+- 2023.08：加入科技园电力系统与装备产业研究院
 
 - 2023.06：申报**国家级**本科生科研训练项目：
 <br>**基于视觉巡检的自平衡独轮机器人研制**
