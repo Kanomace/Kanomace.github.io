@@ -1,3 +1,9 @@
+---
+layout: page
+permalink: /blogs/servo/index.html
+title: 矿山风门控制系统
+---
+
 # WiFi-servo-controller
 
 ## 概述
