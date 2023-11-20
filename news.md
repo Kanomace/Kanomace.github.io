@@ -8,10 +8,10 @@ title: news
 
 - 2023.09：担任福州大学206智能车队副队长
 
-- 2023.09：发表EI会议论文:
+- 2023.09：发表会议论文:
 <br>**Research and Design of Unicycle Robot Based on Cascade PID Control**
 
-- 2023.09：发表EI会议论文:
+- 2023.09：发表会议论文:
 <br>**Research on automatic pricing and replenishment decision of vegetable commodities based on penalty function LSTM model**
 
 - 2023.08：设计企业合作项目:
