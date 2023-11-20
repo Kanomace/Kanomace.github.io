@@ -9,11 +9,8 @@ owner:
   name: Jiacheng Huang
   avatar: sun.jpg
 #  bio:
-  # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter: lancecai2002
-  # facebook: caihanlin2002
+  email: jiacheng.huang@ieee.org
   github: Kanomace
-  #linkedin: hanlincai
   scholar: https://scholar.google.com/citations?user=8igSoWgAAAAJ
   # instagram: lancecai2002
   # lastfm:
@@ -76,11 +73,11 @@ kramdown:
 
 # disqus settings:
 disqus:
-  shortname: lancecai
+  shortname: kanohuang
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]
 
 
-# Latest update in 2023/08/01 by Hanlin Cai.
-# URL: https://caihanlin.com/
+# Latest update in 2023/11/21 by Hanlin Cai.
+# URL: https://jiachenghuang.com/
