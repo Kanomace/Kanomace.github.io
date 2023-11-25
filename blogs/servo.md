@@ -40,7 +40,7 @@ title: 矿山风门控制系统
 ## 系统架构
 
 <center>
-<img src = "/blogs/Fig/architecture.jpg" width = "628" height = "385">
+<img src = "/blogs/Fig/architecture.jpg">
 </center>
 
 ## 硬件连接
@@ -53,7 +53,7 @@ title: 矿山风门控制系统
 ## 程序执行流程
 
 <center>
-<img src = "/blogs/Fig/software.jpg" width = "407" height = "536">
+<img src = "/blogs/Fig/software.jpg">
 </center>
  
 ## 通信协议
