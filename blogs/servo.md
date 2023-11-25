@@ -97,7 +97,7 @@ title: 矿山风门控制系统
 - ***Sender***     : 表示信息传输方。(`TX`:服务器传输给通讯板的指令,`RX`:通讯板传输给服务器的信息)      
 <br>例如:
 <br>`Listing/001/TX`表示**001号通讯板**接收到来自**服务器**的推送信息。
-通讯板返回信息`Listing/ID/RX/Group1/state/hour/min/Group2/state/hour/min/Group3……`
+通讯板返回信息`Listing/ID/RX/Group1/state/hour/min/Group2/state/hour/min/Group3……` 
 
 4. **心跳包机制**
 - 主题名称: `Heartbeat`
