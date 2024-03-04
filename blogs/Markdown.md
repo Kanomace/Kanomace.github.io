@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/mmWave/Markdown.html
+permalink: /blogs/Markdown/index.html
 title: Markdown使用教程
 ---
 

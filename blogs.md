@@ -12,7 +12,7 @@ title: Blogs
 - [嵌入式设备接入小米IOT](https://iot.mi.com/fe-op)<br>
 - [矿业风门控制系统](https://jiachenghuang.com//blogs/servo)<br>
 - [毫米波雷达文献综述](https://jiachenghuang.com//blogs/mmWave)<br>
-- [Markdown使用教程](https://jiachenghuang.com//blogs/Markdown-VSCode-main)<br>
+- [Markdown使用教程](https://jiachenghuang.com//blogs/Markdown)<br>
 
 ### 收藏
 - [极简风个人网站搭建指南](https://caihanlin.com/blogs/web)<br>
