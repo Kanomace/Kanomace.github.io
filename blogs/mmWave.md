@@ -39,13 +39,13 @@ title: 毫米波雷达文献综述
 <img src = "/blogs/mmWave.assets/mmWave_Demo_Visualizer.png">
 </center>
 
-根据官方技术文档的解码，可得返回数据为LVDS格式，解码后可得一帧的数据格式为：
+根据官方技术文档的解码（具体解码过程可参照[**Data Analysis**](https://github.com/Kanomace/Kanomace.github.io/blob/main/blogs/mmWave.assets/Data Analysis.docx)，可得返回数据为LVDS格式，解码后可得一帧的数据格式为：
 
 <center>
 <img src = "/blogs/mmWave.assets/LVDS structure.png" width="300" height="500">
 </center>
 
-由于串口传输速率等问题，雷达板不能直接为PC端提供原始数据，所输出的数据经过下图流程：
+由于串口传输速率等问题，雷达板不能直接为PC端提供原始数据，所输出的数据为经过下图流程处理后的点云数据：
 
 <center>
 <img src = "/blogs/mmWave.assets/mmWave singal processing.png">
@@ -74,3 +74,6 @@ title: 毫米波雷达文献综述
 
 #### 是否使用数据采集板的差异
 
+---
+
+### 文献综述
