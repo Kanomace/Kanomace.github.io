@@ -36,19 +36,19 @@ title: 毫米波雷达文献综述
 在通过uniflash烧录官方例程时，可通过Ti官方上位机软件**mmWave_Demo_Visualizer**如图所示
 
 <center>
-<img src = "/blogs/mmWave.assets/iwr1843boost-angled.png" width="400" height="240">
+<img src = "/blogs/mmWave.assets/mmWave_Demo_Visualizer.png">
 </center>
 
 根据官方技术文档的解码，可得返回数据为LVDS格式，解码后可得一帧的数据格式为：
 
 <center>
-<img src = "/blogs/mmWave.assets/iwr1843boost-angled.png" width="400" height="240">
+<img src = "/blogs/mmWave.assets/LVDS structure.png" width="300" height="500">
 </center>
 
 由于串口传输速率等问题，雷达板不能直接为PC端提供原始数据，所输出的数据经过下图流程：
 
 <center>
-<img src = "/blogs/mmWave.assets/LVDS structure.png" width="300" height="500">
+<img src = "/blogs/mmWave.assets/mmWave singal processing.png">
 </center>
 
 但是，通过标配 20 引脚 BoosterPack 接头，该评估板可与多种 MCU LaunchPad 开发套件兼容并简化原型设计工作。可以使用附加板来启用其他功能。**DCA1000EVM** 支持通过 **LVDS** 接口访问传感器的原始数据。
@@ -63,6 +63,10 @@ title: 毫米波雷达文献综述
 </center>
 
 通过 mmWave Studio (MMWAVE-STUDIO)，可以得到如图所示数据：
+
+<center>
+<img src="/blogs/mmWave.assets/mmWave Studio.png" >
+</center>
 
 #### 是否使用数据采集板的差异
 
