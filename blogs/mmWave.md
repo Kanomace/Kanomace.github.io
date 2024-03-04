@@ -48,7 +48,7 @@ title: 毫米波雷达文献综述
 由于串口传输速率等问题，雷达板不能直接为PC端提供原始数据，所输出的数据经过下图流程：
 
 <center>
-<img src = "/blogs/mmWave.assets/LVDS structure.png" width="400" height="240">
+<img src = "/blogs/mmWave.assets/LVDS structure.png" width="300" height="500">
 </center>
 
 但是，通过标配 20 引脚 BoosterPack 接头，该评估板可与多种 MCU LaunchPad 开发套件兼容并简化原型设计工作。可以使用附加板来启用其他功能。**DCA1000EVM** 支持通过 **LVDS** 接口访问传感器的原始数据。
