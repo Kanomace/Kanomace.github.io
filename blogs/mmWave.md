@@ -30,39 +30,39 @@ title: 毫米波雷达文献综述
 > BoosterPack™ 包含开始为片上 C67x DSP 核心和低功耗 ARM® R4F 控制器开发软件所需的一切资源，包括用于编程和调试的板载仿真，以及用于快速集成简单用户界面的板载按钮和 LED。此套件配备有毫米波工具和软件。
 
 <center>
-<img src = "/blogs/mmWave.assets/iwr1843boost-angled.png"width="400" height="240">
+<img src = "/blogs/mmWave.assets/iwr1843boost-angled.png" width="400" height="240">
 </center>
 
-在通过uniflash烧录官方例程时，可通过Ti官方上位机软件获得如图所示的数据。
+在通过uniflash烧录官方例程时，可通过Ti官方上位机软件**mmWave_Demo_Visualizer**如图所示
 
 <center>
-<img src = "/blogs/mmWave.assets/iwr1843boost-angled.png"width="400" height="240">
+<img src = "/blogs/mmWave.assets/iwr1843boost-angled.png" width="400" height="240">
 </center>
 
 根据官方技术文档的解码，可得返回数据为LVDS格式，解码后可得一帧的数据格式为：
 
-其中包括 mmWave Studio (MMWAVE-STUDIO) 和毫米波软件开发套件 (MMWAVE-SDK)。通过标配 20 引脚 BoosterPack 接头，该评估板可与多种 MCU LaunchPad 开发套件兼容并简化原型设计工作。
+<center>
+<img src = "/blogs/mmWave.assets/iwr1843boost-angled.png" width="400" height="240">
+</center>
 
-可以使用附加板来启用其他功能。例如，DCA1000EVM 支持通过 LVDS 接口访问传感器的原始数据。不包含带 2.1mm 桶形插孔（中心为正极）的 5V、> 2.5A 电源砖。TI 建议购买符合适用地区安全标准的外部电源。
+由于串口传输速率等问题，雷达板不能直接为PC端提供原始数据，所输出的数据经过下图流程：
+
+<center>
+<img src = "/blogs/mmWave.assets/LVDS structure.png" width="400" height="240">
+</center>
+
+但是，通过标配 20 引脚 BoosterPack 接头，该评估板可与多种 MCU LaunchPad 开发套件兼容并简化原型设计工作。可以使用附加板来启用其他功能。**DCA1000EVM** 支持通过 **LVDS** 接口访问传感器的原始数据。
 
 #### DCA1000EVM
 
-DCA1000 评估模块可实现实时数据捕获和流式传输
+> DCA1000 评估模块 (EVM) 为来自 TI AWR 和 IWR 雷达传感器 EVM 的两通道和四通道低电压差分信号 (LVDS) 流量提供实时数据捕获和流式传输。数据可以通过 1Gbps 以太网实时流式传输到运行 MMWAVE-STUDIO 工具的 PC 机上，以进行捕获、可视化，然后可以将其传递给所选的应用进行数据处理和算法开发。
+>支持实验室和移动采集方案，从 AWR/IWR 雷达传感器捕获 LVDS 数据，并通过 1Gbps 以太网实时流式传输输出。 
 
 <center>
 <img src="/blogs/mmWave.assets/dca1000evm-angled.png" width="400" height="240">
 </center>
 
-> 24岁, 是学生.
->DCA1000 评估模块 (EVM) 为来自 IWR 雷达传感器 EVM 的两通道和四通道低电压差分信号 (LVDS) 流量提供实时数据捕获和流式传输。数据可以通过 1Gbps 以太网实时流式传输到运行 MMWAVE-STUDIO 工具的 PC 机上，以进行捕获、可视化，然后可以将其传递给所选的应用进行数据处理和算法开发。
+通过 mmWave Studio (MMWAVE-STUDIO)，可以得到如图所示数据：
 
-特性
-支持实验室和移动采集方案
-从 AWR/IWR 雷达传感器捕获 LVDS 数据
-通过 1Gbps 以太网实时流式传输输出
-通过板载开关或 GUI/库控制
-> 
-
-
-
+#### 是否使用数据采集板的差异
 
