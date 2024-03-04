@@ -50,7 +50,7 @@ title: 毫米波雷达文献综述
 DCA1000 评估模块可实现实时数据捕获和流式传输
 
 <center>
-<img src = "/blogs/mmWave.assets/dca1000evm-angled.png">
+  <img src="/blogs/mmWave.assets/dca1000evm-angled.png" style="width: 500px;">
 </center>
 
 > 24岁, 是学生.
