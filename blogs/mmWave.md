@@ -26,14 +26,32 @@ title: 毫米波雷达文献综述
 
 #### IWR1843BOOST 
 
-```
-> 24岁, 是学生.
-> > 学生特有的无处不在(恼)
-```
+> IWR1843 BoosterPack™ 插件模块是一款面向单芯片 IWR1843 器件的易用型 77GHz 毫米波传感器评估板，可直接连接至 TI MCU LaunchPad™ 开发套件生态系统。
+> BoosterPack™ 包含开始为片上 C67x DSP 核心和低功耗 ARM® R4F 控制器开发软件所需的一切资源，包括用于编程和调试的板载仿真，以及用于快速集成简单用户界面的板载按钮和 LED。此套件配备有毫米波工具和软件。
+
+<center>
+<img src = "/blogs/mmWave.assets/iwr1843boost-angled.png">
+</center>
+
+在通过uniflash烧录官方例程时，可通过Ti官方上位机软件获得如图所示的数据。
+
+<center>
+<img src = "/blogs/mmWave.assets/iwr1843boost-angled.png">
+</center>
+
+根据官方技术文档的解码，可得返回数据为LVDS格式，解码后可得一帧的数据格式为：
+
+其中包括 mmWave Studio (MMWAVE-STUDIO) 和毫米波软件开发套件 (MMWAVE-SDK)。通过标配 20 引脚 BoosterPack 接头，该评估板可与多种 MCU LaunchPad 开发套件兼容并简化原型设计工作。
+
+可以使用附加板来启用其他功能。例如，DCA1000EVM 支持通过 LVDS 接口访问传感器的原始数据。不包含带 2.1mm 桶形插孔（中心为正极）的 5V、> 2.5A 电源砖。TI 建议购买符合适用地区安全标准的外部电源。
 
 #### DCA1000EVM
 
 DCA1000 评估模块可实现实时数据捕获和流式传输
+
+<center>
+<img src = "/blogs/mmWave.assets/dca1000evm-angled.png">
+</center>
 
 > 24岁, 是学生.
 >DCA1000 评估模块 (EVM) 为来自 IWR 雷达传感器 EVM 的两通道和四通道低电压差分信号 (LVDS) 流量提供实时数据捕获和流式传输。数据可以通过 1Gbps 以太网实时流式传输到运行 MMWAVE-STUDIO 工具的 PC 机上，以进行捕获、可视化，然后可以将其传递给所选的应用进行数据处理和算法开发。
