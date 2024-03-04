@@ -33,7 +33,7 @@ title: 毫米波雷达文献综述
 <img src = "/blogs/mmWave.assets/iwr1843boost-angled.png" width="400" height="240">
 </center>
 
-在通过uniflash烧录官方例程时，可通过Ti官方上位机软件**mmWave_Demo_Visualizer**如图所示
+在通过uniflash烧录官方例程时，可通过Ti官方上位机软件**mmWave_Demo_Visualizer**如图所示：
 
 <center>
 <img src = "/blogs/mmWave.assets/mmWave_Demo_Visualizer.png">
@@ -53,6 +53,8 @@ title: 毫米波雷达文献综述
 
 但是，通过标配 20 引脚 BoosterPack 接头，该评估板可与多种 MCU LaunchPad 开发套件兼容并简化原型设计工作。可以使用附加板来启用其他功能。**DCA1000EVM** 支持通过 **LVDS** 接口访问传感器的原始数据。
 
+---
+
 #### DCA1000EVM
 
 > DCA1000 评估模块 (EVM) 为来自 TI AWR 和 IWR 雷达传感器 EVM 的两通道和四通道低电压差分信号 (LVDS) 流量提供实时数据捕获和流式传输。数据可以通过 1Gbps 以太网实时流式传输到运行 MMWAVE-STUDIO 工具的 PC 机上，以进行捕获、可视化，然后可以将其传递给所选的应用进行数据处理和算法开发。
@@ -67,6 +69,8 @@ title: 毫米波雷达文献综述
 <center>
 <img src="/blogs/mmWave.assets/mmWave Studio.png" >
 </center>
+
+---
 
 #### 是否使用数据采集板的差异
 
