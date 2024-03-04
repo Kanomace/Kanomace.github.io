@@ -30,13 +30,13 @@ title: 毫米波雷达文献综述
 > BoosterPack™ 包含开始为片上 C67x DSP 核心和低功耗 ARM® R4F 控制器开发软件所需的一切资源，包括用于编程和调试的板载仿真，以及用于快速集成简单用户界面的板载按钮和 LED。此套件配备有毫米波工具和软件。
 
 <center>
-<img src = "/blogs/mmWave.assets/iwr1843boost-angled.png">
+<img src = "/blogs/mmWave.assets/iwr1843boost-angled.png"width="400" height="240">
 </center>
 
 在通过uniflash烧录官方例程时，可通过Ti官方上位机软件获得如图所示的数据。
 
 <center>
-<img src = "/blogs/mmWave.assets/iwr1843boost-angled.png">
+<img src = "/blogs/mmWave.assets/iwr1843boost-angled.png"width="400" height="240">
 </center>
 
 根据官方技术文档的解码，可得返回数据为LVDS格式，解码后可得一帧的数据格式为：
@@ -50,7 +50,7 @@ title: 毫米波雷达文献综述
 DCA1000 评估模块可实现实时数据捕获和流式传输
 
 <center>
-<img src="/blogs/mmWave.assets/dca1000evm-angled.png" width="500" height="300">
+<img src="/blogs/mmWave.assets/dca1000evm-angled.png" width="400" height="240">
 </center>
 
 > 24岁, 是学生.
