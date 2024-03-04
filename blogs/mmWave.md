@@ -24,20 +24,20 @@ title: 毫米波雷达文献综述
 
 ### 关于毫米波雷达硬件介绍
 
-#### IWR1843BOOST — IWR1843 BoosterPack™ 单芯片 77GHz 毫米波传感器评估模块
+#### IWR1843BOOST 
 
 ```
 > 24岁, 是学生.
 > > 学生特有的无处不在(恼)
 ```
 
-引用是可以嵌套的!
+#### DCA1000EVM
 
-E.G. 
+DCA1000 评估模块可实现实时数据捕获和流式传输
 
 > 24岁, 是学生.
 >
-> > 学生特有的无处不在(恼)
+> 
 
 <center>
 <img src = "/blogs/206yingjian.assets/AD21.png">
