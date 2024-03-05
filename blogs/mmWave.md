@@ -49,7 +49,7 @@ title: 毫米波雷达文献综述
 <img src = "/blogs/mmWave.assets/mmWave_Demo_Visualizer.png">
 </center>
 
-根据官方技术文档的解码（具体解码过程可参照[**Data Analysis**](https://github.com/Kanomace/Kanomace.github.io/blob/main/blogs/mmWave.assets/Data Analysis.docx)），可得返回数据为LVDS格式，解码后可得一帧的数据格式为：
+根据官方技术文档的解码（具体解码过程可参照[**Data Analysis**](https://github.com/Kanomace/Kanomace.github.io/blob/main/blogs/mmWave.assets/DataAnalysis.docx)），可得返回数据为LVDS格式，解码后可得一帧的数据格式为：
 
 <center>
 <img src = "/blogs/mmWave.assets/LVDS structure.png" width="300" height="500">
@@ -93,7 +93,7 @@ title: 毫米波雷达文献综述
 
 ### 文献综述
 
-[2020年~2024年毫米波雷达检测领域的文献调研](https://github.com/Kanomace/Kanomace.github.io/blob/main/blogs/mmWave.assets/mmWave literature review.xlsx)
+[2020年~2024年毫米波雷达检测领域的文献调研](https://github.com/Kanomace/Kanomace.github.io/blob/main/blogs/mmWave.assets/mmWaveLiteratureReview.xlsx)
 
 ---
 
