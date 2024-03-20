@@ -36,8 +36,8 @@ links:
     url: /publications/
   - title: Awards
     url: /awards/
-  - title: News 
-    url: /news/
+  #- title: News 
+  #  url: /news/
   #- title: Hobbies
   #  url: /hobbies/
   - title: Blogs
