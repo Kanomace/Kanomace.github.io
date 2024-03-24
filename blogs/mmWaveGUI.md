@@ -12,32 +12,40 @@ title: 毫米波雷达文献综述
 
 >此教程适用于单TI毫米波雷达板卡串口返回数据并解析,未添加DCA1000数据采集板卡
 
-<br>在使用TI的毫米波雷达板卡时,TI官方提供了如**mmWave_Demo_Visualizer**,**mmWave Studio**等上位机软件,以便新手能在短时间内运行一个DEMO程序可视化雷达板点云数据和进行雷达配置。
+<br>在使用TI的毫米波雷达板卡时,TI官方提供了如**mmWave Studio**,**mmWave_Demo_Visualizer**等上位机软件,以便新手能在短时间内运行一个DEMO程序可视化雷达板点云数据和进行雷达配置。
 <br>虽然TI官方和网上的教程都很完整地给出了解析雷达版+DCA数据采集板的ADC数据教程,可是TI官方明确说明了并没有提供单雷达版点云数据采集的教程,笔者在网络论坛以及和同行们交流的过程中,大家也各自有自己开发采集代码的想法。
-<br>因此,在笔者进行几天的串口数据解析的探索之后,终于成功地实现了简单地自定义采集帧率,并将原始数据和解析成功的数据以bin文件和xlsx文件储存的代码。即使读者没有编写python上位机的经验,也能通过此教程实现
-
+<br>因此,在笔者进行几天的串口数据解析的探索之后,终于成功地实现了简单地自定义采集帧率,并将原始数据和解析成功的数据以bin文件和xlsx文件储存的代码。
 ---
 
-### 技术流程
+### 下载源码
 
 1. 下载TI官方提供的radar_toolbox工具包，接下来的步骤会使用到其中的py文件，下载地址可点击这里
 
-2. 根据路径*radar_toolbox_1_30_01_03\tools\visualizers\Industrial_Visualizer*找到*mmWave_Industrial_Visualizer.exe*
+2. 根据下面的路径找到需要的上位机软件:*radar_toolbox_1_30_01_03\tools\visualizers\Industrial_Visualizer*找到*mmWave_Industrial_Visualizer.exe*
    
-<br> 其实，在这个上位机软件中，除了可视化点云和跑一些TI的DEMO以外,已经可以实现简单地串口采集功能，大家不妨一试。
+<br> 其实，在这个上位机软件中，除了可视化点云和运行TI的DEMO以外,已经可以实现简单地串口采集功能，大家不妨一试。
 
-<br> 但是这个功能聊胜于无，因为采集的数据是不仅原始的二进制数据，还不能自定义采集文件的帧率（默认为100帧采集为一个bin文件，而TI雷达版的串口是1秒10帧，除非是静态点云的项目，否则这个数据采集之后还需要手动分割）
+<br> 但是这个功能聊胜于无，因为采集的数据是不仅原始的**二进制数据**，还不能**自定义**采集文件的帧率（默认为100帧采集为一个bin文件，而TI雷达版的串口是1秒10帧，除非是静态点云的项目，否则这个数据采集之后还需要手动分割）
 
 <br> 在尝试无果之后，笔者在阅读这个文档的时候发现了有趣的东西*mmWave_Industrial_Visualizer_User_Guide.html*
 
-<br> 文件的最后一段，表明了这个上位机的py脚本功能。因此我们可以通过截取这些py文件实现TLVS的数据解析
+```bash
+.radar_toolbox_1_30_01_03\tools\visualizers\Industrial_Visualizer
+├── gui_main.py         the main program which controls placement of all items in the GUI and schedules UART read and graphing tasks.
+├── gui_parser.py       defines an object used for parsing the UART stream. If you want to parse the UART data, you can use this file to do so.
+├── gui_threads.py      defines the different threads that are run by the demo. These threads handle updating the plot and calling the UART parser.
+├── graphUtilities.py   contains functions used to draw objects.
+├── gui_common.py       aggregates several variables and configurables which are used across several files.
+├── parseFrame.py       is responsible for parsing the frame format of incoming data.
+└── parseTLVs.py        is responsible for parsing all TLV’s which are defined in the demos.
+    
+```
+
 ---
 
 ### 代码通读
 
 #### parseTLVs.py
-
-
 
 <center>
 <img src = "/blogs/mmWave.assets/iwr1843boost-angled.png" width="400" height="240">
