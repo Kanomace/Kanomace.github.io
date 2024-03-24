@@ -38,7 +38,6 @@ title: 毫米波雷达文献综述
 ├── gui_common.py       aggregates several variables and configurables which are used across several files.
 ├── parseFrame.py       is responsible for parsing the frame format of incoming data.
 └── parseTLVs.py        is responsible for parsing all TLV’s which are defined in the demos.
-    
 ```
 
 <br> 也就是说，可以通过*parseFrame.py*和*parseTLVs.py*这两个脚本进行TLVS数据解析
