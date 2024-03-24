@@ -6,13 +6,17 @@ title: Blogs
 
 ## Chinese Blogs
 
-### 2023
+### 2024
 
 - [206智能车队硬件培训](https://jiachenghuang.com//blogs/206yingjian)<br>
+- [毫米波雷达文献综述](https://jiachenghuang.com//blogs/mmWave)<br>
+- [毫米波雷达串口采集点云数据](https://jiachenghuang.com//blogs/mmWaveGUI)<br>
+
+### 2023
+
+- [Markdown使用教程](https://jiachenghuang.com//blogs/Markdown)<br>
 - [嵌入式设备接入小米IOT](https://iot.mi.com/fe-op)<br>
 - [矿业风门控制系统](https://jiachenghuang.com//blogs/servo)<br>
-- [毫米波雷达文献综述](https://jiachenghuang.com//blogs/mmWave)<br>
-- [Markdown使用教程](https://jiachenghuang.com//blogs/Markdown)<br>
 
 ### 收藏
 - [极简风个人网站搭建指南](https://caihanlin.com/blogs/web)<br>
