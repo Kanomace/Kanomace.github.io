@@ -17,19 +17,21 @@ title: 毫米波雷达文献综述
 <br>虽然TI官方和网上的教程都很完整地给出了解析雷达版+DCA数据采集板的ADC数据教程,可是TI官方明确说明了并没有提供单雷达版点云数据采集的教程,笔者在网络论坛以及和同行们交流的过程中,大家也各自有自己开发采集代码的想法。
 
 <br>因此,在笔者进行几天的串口数据解析的探索之后,终于成功地实现了简单地自定义采集帧率,并将原始数据和解析成功的数据以bin文件和xlsx文件储存的代码。
+
 ---
 
 ### 🍴 下载源码
 
-1. 下载TI官方提供的radar_toolbox工具包，接下来的步骤会使用到其中的py文件，下载地址可点击这里
+1. 下载TI官方提供的radar_toolbox工具包，接下来的步骤会使用到其中的py文件，下载地址可[点击这里](https://www.ti.com/tool/download/RADAR-TOOLBOX/1.30.01.03)
 
-2. 根据下面的路径找到需要的上位机软件:*radar_toolbox_1_30_01_03\tools\visualizers\Industrial_Visualizer*找到*mmWave_Industrial_Visualizer.exe*
+2. 根据的路径:*radar_toolbox_1_30_01_03\tools\visualizers\Industrial_Visualizer*
+   找到*mmWave_Industrial_Visualizer.exe*这个上位机软件
    
 <br> 其实，在这个上位机软件中，除了可视化点云和运行TI的DEMO以外,已经可以实现简单地串口采集功能，大家不妨一试。
 
 <br> 但是这个功能聊胜于无😂，因为采集的数据是不仅原始的**二进制数据**，还不能**自定义**采集文件的帧率（默认为100帧采集为一个bin文件，而TI雷达版的串口是1秒10帧，除非是静态点云的项目，否则这个数据采集之后还需要手动分割）
 
-<br> 在尝试无果之后，笔者在阅读这个文档的时候发现了有趣的东西*mmWave_Industrial_Visualizer_User_Guide.html*
+<br> 在尝试无果之后，笔者在阅读这个文档的时候发现了有趣的东西[mmWave_Industrial_Visualizer_User_Guide.html](https://dev.ti.com/tirex/explore/node?node=A__AOFxUnA4gLo7lRDXedw8XQ__radar_toolbox__1AslXXD__LATEST)
 
 ```bash
 .radar_toolbox_1_30_01_03\tools\visualizers\Industrial_Visualizer
@@ -42,7 +44,7 @@ title: 毫米波雷达文献综述
 └── parseTLVs.py        is responsible for parsing all TLV’s which are defined in the demos.
 ```
 
-<br> 也就是说，上位机可以通过*parseFrame.py*和*parseTLVs.py*这两个脚本进行TLVS数据解析
+<br> 💡 也就是说，上位机可以通过*parseFrame.py*和*parseTLVs.py*这两个脚本进行TLVS数据解析
 <br> 通过*gui_parser.py*可以实现串口数据解析
 
 ---
@@ -80,7 +82,7 @@ title: 毫米波雷达文献综述
 #### parseFrame.py 
 
 <br>这个文件用于调用*def parseStandardFrame(frameData)*进行数据的解析
-<br>读者可直接从串口copy一段毫米波雷达的数据放进txt文件，可使用笔者提供的例程尝试解析数据
+<br>读者可从**串口**copy一段毫米波雷达的**原始数据**放进**txt**文件，可使用笔者提供的例程尝试解析数据：
 
 ````python
 ```
@@ -131,33 +133,34 @@ def write_output_data(file_path, point_cloud):
 if __name__ == '__main__':
     # 解析输入数据
     parsed_data = parse_input_data(input_file)
-
     # 提取点云数据
     point_cloud = extract_point_cloud(parsed_data)
-
     # 将解析结果写入输出文件
     write_output_data(output_file, point_cloud)
 ````
 
-<br>解析后的返回对象应为：
-
 <br>解析后的点云格式应为：
+
+<center>
+<img src = "/blogs/mmWaveGUI.assets/pointCloudDatatxt.png" width="400" height="240">
+</center>
 
 <br>至此，我们便完成了一段原始数据的解析。那么，我们如何实现串口返回数据的实时解析并保存呢
 
-#### parseFrame.py 
+#### gui_parser.py 
 
 <br>这个代码为官方上位机所使用的串口数据解析文件，如果读者有兴趣，也可以根据这个代码实现自己的实时上位机显示（开发时间会有点长）
 
 <br>还记得上面说的:
 
->> 在这个上位机软件中，除了可视化点云和运行TI的DEMO以外,已经可以实现简单地串口采集功能
+> 在这个上位机软件中，除了可视化点云和运行TI的DEMO以外,已经可以实现简单地串口采集功能
 
 <br>也就是说，只要我们能够理解此文件中的参数设置并尝试捕获解析后的数据，我们便可以实现在使用TI上位机的同时，修改它的功能，自定义**采集帧率，数据格式，每文件帧数，以及文件格式**
 
-<br>直入正题，由于笔者所使用的的雷达版型号为IWR1843，所对应上位机串口处理函数为*def readAndParseUartDoubleCOMPort(self)*，各位根据自己的雷达版对应函数修改即可
+<br>直入正题，由于笔者所使用的的雷达版型号为**IWR1843**，所对应上位机串口处理函数为
+<br>*def readAndParseUartDoubleCOMPort(self)*，各位根据自己的雷达版对应函数修改即可
 
-<br>其中，保存二进制文件的代码段为：
+<br>其中，保存**二进制**文件的代码段为：
 
 ````python
 ```
@@ -194,7 +197,7 @@ if __name__ == '__main__':
 
 ````python
 ```
-这段代码处理了接收到的数据帧（frameData）和保存二进制数据的逻辑。下面是对代码逻辑的解释：
+这段代码处理了接收到的数据帧(frameData)和保存二进制数据的逻辑。下面是对代码逻辑的解释：
 1. 如果启用了保存二进制数据的选项（self.saveBinary == 1），则执行以下操作：
     将当前接收到的数据帧（frameData）添加到binData中。
     每接收到framesPerFile帧数据时，保存一次数据。
@@ -215,19 +218,34 @@ if __name__ == '__main__':
 总体上，这段代码实现了将接收到的数据帧保存为二进制文件，并调用相应的解析器对数据进行解析。解析的结果存储在outputDict中，并作为函数的返回值。
 ````
 
-也就是，可以截取*outputDict*这个截取结果，仿照该代码段中bin文件保存的形式，进行xlsx，txt等等读者自己喜欢的方式保存文件！
-而*parseStandardFrame(frameData)*这个函数返回的值为一个字典，包含点云数，帧数，点云数据等内容，我们只需通过上文所提供例程的同样方法提取点云数据
+<br>也就是，可以截取*outputDict*这个输出结果，仿照该代码段中bin文件保存的形式，进行xlsx，txt等等读者自己喜欢的方式保存文件！
 
+<br>而*parseStandardFrame(frameData)*这个函数返回的值为一个字典，包含点云数，帧数，点云数据等内容，我们只需通过**上文所提供例程**的同样方法提取点云数据
 
-并且，可在函数开头修改*self.framesPerFile* 这个参数实现自定义采集帧率的代码啦
+<br>并且，可在函数开头修改*self.framesPerFile* 这个参数实现自定义采集帧率的代码啦
 
-> 请注意，修改后的上位机应该经过重新编译*gui_main.py*的上位机主函数，python环境请自行配置
+> 请注意，修改后的上位机应该经过重新编译上位机主函数*gui_main.py*，python环境请自行配置
 
 ### 📉 采集结果
 
-至此，我们便完成了自定义帧率的串口数据解析和采集啦
+<br>至此，我们便完成了自定义帧率的串口数据解析和采集啦！根据笔者提供的例程逻辑，解析后的数据如下所示：
 
-后续会将修改后的具体代码放到这个github仓库中：
+<center>
+<img src = "/blogs/mmWaveGUI.assets/pointCloudDataxlsx.png" width="400" height="240">
+</center>
 
-有需要的小伙伴
+<br>此教程旨在讲解如何修改TI上位机，读者可根据自己的项目需求自行调整
+
+<br>后续会将修改后的具体代码放到这个github仓库中(目前仅提供笔者所用的调试例程)
+
+### 🏁 结语
+
+最后的最后，感谢你阅读这份文字。如果笔者的博客成功帮助你实现了串口数据的解析和采集，还请你给本仓库的右上角点一个**star**❤️。
+
+与此同时，如果你有任何的建议/意见：
+
+- 欢迎你在Github Issues中提出意见，并附上建议方案
+- 或者在Github Discussions进行谈论，欢迎你提出任何看法
+- 联系我的QQ:3065566278 
+- 一起交流毫米波雷达项目吧😸~
 
