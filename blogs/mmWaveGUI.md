@@ -8,7 +8,7 @@ title: 毫米波雷达文献综述
 
 --- 
 
-### 前言
+### 🔥 前言
 
 >此教程适用于单TI毫米波雷达板卡串口返回数据并解析,未添加DCA1000数据采集板卡
 
@@ -19,7 +19,7 @@ title: 毫米波雷达文献综述
 <br>因此,在笔者进行几天的串口数据解析的探索之后,终于成功地实现了简单地自定义采集帧率,并将原始数据和解析成功的数据以bin文件和xlsx文件储存的代码。
 ---
 
-### 下载源码
+### 🍴 下载源码
 
 1. 下载TI官方提供的radar_toolbox工具包，接下来的步骤会使用到其中的py文件，下载地址可点击这里
 
@@ -27,7 +27,7 @@ title: 毫米波雷达文献综述
    
 <br> 其实，在这个上位机软件中，除了可视化点云和运行TI的DEMO以外,已经可以实现简单地串口采集功能，大家不妨一试。
 
-<br> 但是这个功能聊胜于无，因为采集的数据是不仅原始的**二进制数据**，还不能**自定义**采集文件的帧率（默认为100帧采集为一个bin文件，而TI雷达版的串口是1秒10帧，除非是静态点云的项目，否则这个数据采集之后还需要手动分割）
+<br> 但是这个功能聊胜于无😂，因为采集的数据是不仅原始的**二进制数据**，还不能**自定义**采集文件的帧率（默认为100帧采集为一个bin文件，而TI雷达版的串口是1秒10帧，除非是静态点云的项目，否则这个数据采集之后还需要手动分割）
 
 <br> 在尝试无果之后，笔者在阅读这个文档的时候发现了有趣的东西*mmWave_Industrial_Visualizer_User_Guide.html*
 
@@ -42,12 +42,12 @@ title: 毫米波雷达文献综述
 └── parseTLVs.py        is responsible for parsing all TLV’s which are defined in the demos.
 ```
 
-<br> 也就是说，可以通过*parseFrame.py*和*parseTLVs.py*这两个脚本进行TLVS数据解析
+<br> 也就是说，上位机可以通过*parseFrame.py*和*parseTLVs.py*这两个脚本进行TLVS数据解析
 <br> 通过*gui_parser.py*可以实现串口数据解析
 
 ---
 
-### 代码通读
+### 🍭 代码通读
 
 #### parseTLVs.py 
 
@@ -80,7 +80,7 @@ title: 毫米波雷达文献综述
 #### parseFrame.py 
 
 <br>这个文件用于调用*def parseStandardFrame(frameData)*进行数据的解析
-<br>读者可直接从串口copy一段毫米波雷达的数据放进txt文件，使用下面的例程尝试解析数据
+<br>读者可直接从串口copy一段毫米波雷达的数据放进txt文件，可使用笔者提供的例程尝试解析数据
 
 ````python
 ```
@@ -190,48 +190,44 @@ if __name__ == '__main__':
     return outputDict
 ````
 
-<center>
-<img src = "/blogs/mmWave.assets/mmWave singal processing.png">
-</center>
+用GPT解析一下该代码逻辑
 
-但是，通过标配 20 引脚 BoosterPack 接头，该评估板可与多种 MCU LaunchPad 开发套件兼容并简化原型设计工作。可以使用附加板来启用其他功能。**DCA1000EVM** 支持通过 **LVDS** 接口访问传感器的原始数据。
+````python
+```
+这段代码处理了接收到的数据帧（frameData）和保存二进制数据的逻辑。下面是对代码逻辑的解释：
+1. 如果启用了保存二进制数据的选项（self.saveBinary == 1），则执行以下操作：
+    将当前接收到的数据帧（frameData）添加到binData中。
+    每接收到framesPerFile帧数据时，保存一次数据。
+    uartCounter递增1，用于计算接收到的帧数。
+    如果uartCounter是framesPerFile的倍数，说明需要保存数据到文件。
+    第一次保存时需要设置路径：
+        如果first_file为True，即第一个文件，检查是否存在binData/文件夹，如果不存在，则创建该文件夹。
+        在binData/文件夹下创建self.filepath文件夹。
+        将first_file设置为False，表示已经设置过路径。
+    将binData转换为字节流（toSave）。
+    根据当前保存的文件编号（math.floor(self.uartCounter/self.framesPerFile)）构造文件名（fileName）。
+    打开文件（bfile）并将字节流写入文件。
+    关闭文件（bfile）。
+    重置binData，准备保存下一批数据。
+2.如果parserType是"DoubleCOMPort"，则调用parseStandardFrame函数解析接收到的数据帧（frameData），并将解析结果存储在outputDict中。
+3.如果parserType不是"DoubleCOMPort"，则打印错误信息"FAILURE: Bad parserType"。
+4.返回outputDict作为结果。
+总体上，这段代码实现了将接收到的数据帧保存为二进制文件，并调用相应的解析器对数据进行解析。解析的结果存储在outputDict中，并作为函数的返回值。
+````
 
----
+也就是，可以截取*outputDict*这个截取结果，仿照该代码段中bin文件保存的形式，进行xlsx，txt等等读者自己喜欢的方式保存文件！
+而*parseStandardFrame(frameData)*这个函数返回的值为一个字典，包含点云数，帧数，点云数据等内容，我们只需通过上文所提供例程的同样方法提取点云数据
 
-#### DCA1000EVM
 
-> DCA1000 评估模块 (EVM) 为来自 TI AWR 和 IWR 雷达传感器 EVM 的两通道和四通道低电压差分信号 (LVDS) 流量提供实时数据捕获和流式传输。数据可以通过 1Gbps 以太网实时流式传输到运行 MMWAVE-STUDIO 工具的 PC 机上，以进行捕获、可视化，然后可以将其传递给所选的应用进行数据处理和算法开发。
->支持实验室和移动采集方案，从 AWR/IWR 雷达传感器捕获 LVDS 数据，并通过 1Gbps 以太网实时流式传输输出。 
+并且，可在函数开头修改*self.framesPerFile* 这个参数实现自定义采集帧率的代码啦
 
-<center>
-<img src="/blogs/mmWave.assets/dca1000evm-angled.png" width="400" height="240">
-</center>
+> 请注意，修改后的上位机应该经过重新编译*gui_main.py*的上位机主函数，python环境请自行配置
 
-通过 mmWave Studio (MMWAVE-STUDIO)，可以得到如图所示数据：
+### 📉 采集结果
 
-<center>
-<img src="/blogs/mmWave.assets/mmWave Studio.png" >
-</center>
+至此，我们便完成了自定义帧率的串口数据解析和采集啦
 
----
+后续会将修改后的具体代码放到这个github仓库中：
 
-#### 是否使用数据采集板的差异
+有需要的小伙伴
 
-| 型号 | 传输方式  | 信号类型 | 上位机软件 |
-| :---: | :---: | :---: | :---: | 
-|IWR1843|串口|经3次FFT处理后的点云数据|mmWave Studio|
-|IWR1843+DAC1000|以太网|信号回波的原始数据|mmWave_Demo_Visualizer |
-
----
-
-### 文献综述
-
-[2020年~2024年毫米波雷达检测领域的文献调研](https://github.com/Kanomace/Kanomace.github.io/blob/main/blogs/mmWave.assets/mmWaveLiteratureReview.xlsx)
-
----
-
-### 问题与总结
-
-1. 毫米波雷达研究领域较新，多为高校实验室自主采集数据，数据集小且不公开，导致系统性能高度依赖训练集，模型适应性较弱
-2. 对人体位姿的估计仅考虑单人状态，难以实现多人在场时的准确判断
-3. 在室外道路复杂场景中，雷达回波噪声显著，人体RCS较小，动作幅度中提取的信号特征不明显
