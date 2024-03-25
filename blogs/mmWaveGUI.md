@@ -155,40 +155,39 @@ if __name__ == '__main__':
 
 <br>也就是说，只要我们能够理解此文件中的参数设置并尝试捕获解析后的数据，我们便可以实现在使用TI上位机的同时，修改它的功能，自定义**采集帧率，数据格式，每文件帧数，以及文件格式**
 
-<br>直入正题，由于笔者所使用的的雷达版幸好为IWR1843，所对应上位机串口处理函数为*def readAndParseUartDoubleCOMPort(self)*，各位根据自己的雷达版对应函数修改即可
+<br>直入正题，由于笔者所使用的的雷达版型号为IWR1843，所对应上位机串口处理函数为*def readAndParseUartDoubleCOMPort(self)*，各位根据自己的雷达版对应函数修改即可
 
-其中，保存二进制文件的代码段是：
+<br>其中，保存二进制文件的代码段为：
 
 ````python
 ```
-        # If save binary is enabled
-        if(self.saveBinary == 1):
-            self.binData += frameData
-            # Save data every framesPerFile frames
-            self.uartCounter += 1
-            if (self.uartCounter % self.framesPerFile == 0):
-                # First file requires the path to be set up
-                if(self.first_file is True): 
-                    if(os.path.exists('binData/') == False):
-                        # Note that this will create the folder in the caller's path, not necessarily in the Industrial Viz Folder                        
-                        os.mkdir('binData/')
-                    os.mkdir('binData/'+self.filepath)
-                    self.first_file = False
-                toSave = bytes(self.binData)
-                fileName = 'binData/' + self.filepath + '/pHistBytes_' + str(math.floor(self.uartCounter/self.framesPerFile)) + '.bin'
-                bfile = open(fileName, 'wb')
-                bfile.write(toSave)
-                bfile.close()
-                # Reset binData and missed frames
-                self.binData = []
- 
-        # frameData now contains an entire frame, send it to parser
-        if (self.parserType == "DoubleCOMPort"):
-            outputDict = parseStandardFrame(frameData)
-        else:
-            print ('FAILURE: Bad parserType')
+# If save binary is enabled
+    if(self.saveBinary == 1):
+        self.binData += frameData
+        # Save data every framesPerFile frames
+        self.uartCounter += 1
+        if (self.uartCounter % self.framesPerFile == 0):
+            # First file requires the path to be set up
+            if(self.first_file is True): 
+                if(os.path.exists('binData/') == False):
+                    # Note that this will create the folder in the caller's path, not necessarily in the Industrial Viz Folder                        
+                    os.mkdir('binData/')
+                os.mkdir('binData/'+self.filepath)
+                self.first_file = False
+            toSave = bytes(self.binData)
+            fileName = 'binData/' + self.filepath + '/pHistBytes_' + str(math.floor(self.uartCounter/self.framesPerFile)) + '.bin'
+            bfile = open(fileName, 'wb')
+            bfile.write(toSave)
+            bfile.close()
+            # Reset binData and missed frames
+            self.binData = []
+    # frameData now contains an entire frame, send it to parser
+    if (self.parserType == "DoubleCOMPort"):
+        outputDict = parseStandardFrame(frameData)
+    else:
+        print ('FAILURE: Bad parserType')
         
-        return outputDict
+    return outputDict
 ````
 
 <center>
