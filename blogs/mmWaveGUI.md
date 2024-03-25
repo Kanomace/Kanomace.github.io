@@ -22,16 +22,16 @@ title: 毫米波雷达文献综述
 
 ### 🍴 下载源码
 
-1. 下载TI官方提供的radar_toolbox工具包，接下来的步骤会使用到其中的py文件，下载地址可[点击这里](https://www.ti.com/tool/download/RADAR-TOOLBOX/1.30.01.03)
+1. 下载TI官方提供的radar_toolbox工具包,接下来的步骤会使用到其中的py文件,下载地址可[点击这里](https://www.ti.com/tool/download/RADAR-TOOLBOX/1.30.01.03)
 
 2. 根据的路径:*radar_toolbox_1_30_01_03\tools\visualizers\Industrial_Visualizer*
    找到*mmWave_Industrial_Visualizer.exe*这个上位机软件
    
-<br> 其实，在这个上位机软件中，除了可视化点云和运行TI的DEMO以外,已经可以实现简单地串口采集功能，大家不妨一试。
+<br> 其实,在这个上位机软件中,除了可视化点云和运行TI的DEMO以外,已经可以实现简单地串口采集功能,大家不妨一试。
 
-<br> 但是这个功能聊胜于无😂，因为采集的数据是不仅原始的**二进制数据**，还不能**自定义**采集文件的帧率（默认为100帧采集为一个bin文件，而TI雷达版的串口是1秒10帧，除非是静态点云的项目，否则这个数据采集之后还需要手动分割）
+<br> 但是这个功能聊胜于无😂,因为采集的数据是不仅原始的**二进制数据**,还不能**自定义**采集文件的帧率（默认为100帧采集为一个bin文件,而TI雷达版的串口是1秒10帧,除非是静态点云的项目,否则这个数据采集之后还需要手动分割）
 
-<br> 在尝试无果之后，笔者在阅读这个文档的时候发现了有趣的东西[mmWave_Industrial_Visualizer_User_Guide.html](https://dev.ti.com/tirex/explore/node?node=A__AOFxUnA4gLo7lRDXedw8XQ__radar_toolbox__1AslXXD__LATEST)
+<br> 在尝试无果之后,笔者在阅读这个文档的时候发现了有趣的东西[mmWave_Industrial_Visualizer_User_Guide.html](https://dev.ti.com/tirex/explore/node?node=A__AOFxUnA4gLo7lRDXedw8XQ__radar_toolbox__1AslXXD__LATEST)
 
 ```bash
 .radar_toolbox_1_30_01_03\tools\visualizers\Industrial_Visualizer
@@ -44,7 +44,7 @@ title: 毫米波雷达文献综述
 └── parseTLVs.py        is responsible for parsing all TLV’s which are defined in the demos.
 ```
 
-<br> 💡 也就是说，上位机可以通过*parseFrame.py*和*parseTLVs.py*这两个脚本进行TLVS数据解析
+<br> 💡 也就是说,上位机可以通过*parseFrame.py*和*parseTLVs.py*这两个脚本进行TLVS数据解析
 <br> 通过*gui_parser.py*可以实现串口数据解析
 
 ---
@@ -53,8 +53,8 @@ title: 毫米波雷达文献综述
 
 #### parseTLVs.py 
 
-<br>这个文件主要是用于解析TLVs数据，用于其他脚本调用，这里不再赘述。
-<br>值得注意的是，下面的注释表明了解析后的点云数据格式为**x，y，z，Dopper，SNR，Noise**
+<br>这个文件主要是用于解析TLVs数据,用于其他脚本调用,这里不再赘述
+<br>值得注意的是,下面的注释表明了解析后的点云数据格式为**x,y,z,Dopper,SNR,Noise**
 
 ````python
 ```
@@ -82,7 +82,7 @@ title: 毫米波雷达文献综述
 #### parseFrame.py 
 
 <br>这个文件用于调用*def parseStandardFrame(frameData)*进行数据的解析
-<br>读者可从**串口**copy一段毫米波雷达的**原始数据**放进**txt**文件，可使用笔者提供的例程尝试解析数据：
+<br>读者可从**串口**copy一段毫米波雷达的**原始数据**放进**txt**文件,可使用笔者提供的例程尝试解析数据:
 
 ````python
 ```
@@ -102,7 +102,7 @@ def parse_input_data(file_path):
     # 读取输入文件的数据
     with open(file_path, 'r') as file:
         data = file.read()
-    # 移除换行符，并将数据拆分为帧
+    # 移除换行符,并将数据拆分为帧
     frames = data.split('\n')
     # 解析每个帧的数据
     parsed_data = []
@@ -139,28 +139,28 @@ if __name__ == '__main__':
     write_output_data(output_file, point_cloud)
 ````
 
-<br>解析后的点云格式应为：
+<br>解析后的点云格式应为:
 
 <center>
 <img src = "/blogs/mmWaveGUI.assets/pointCloudDatatxt.png" width="400" height="240">
 </center>
 
-<br>至此，我们便完成了一段原始数据的解析。那么，我们如何实现串口返回数据的实时解析并保存呢
+<br>至此,我们便完成了一段原始数据的解析。那么,我们如何实现串口返回数据的实时解析并保存呢
 
 #### gui_parser.py 
 
-<br>这个代码为官方上位机所使用的串口数据解析文件，如果读者有兴趣，也可以根据这个代码实现自己的实时上位机显示（开发时间会有点长）
+<br>这个代码为官方上位机所使用的串口数据解析文件,如果读者有兴趣,也可以根据这个代码实现自己的实时上位机显示（开发时间会有点长）
 
 <br>还记得上面说的:
 
-> 在这个上位机软件中，除了可视化点云和运行TI的DEMO以外,已经可以实现简单地串口采集功能
+> 在这个上位机软件中,除了可视化点云和运行TI的DEMO以外,已经可以实现简单地串口采集功能
 
-<br>也就是说，只要我们能够理解此文件中的参数设置并尝试捕获解析后的数据，我们便可以实现在使用TI上位机的同时，修改它的功能，自定义**采集帧率，数据格式，每文件帧数，以及文件格式**
+<br>也就是说,只要我们能够理解此文件中的参数设置并尝试捕获解析后的数据,我们便可以实现在使用TI上位机的同时,修改它的功能,自定义**采集帧率,数据格式,每文件帧数,以及文件格式**
 
-<br>直入正题，由于笔者所使用的的雷达版型号为**IWR1843**，所对应上位机串口处理函数为
-<br>*def readAndParseUartDoubleCOMPort(self)*，各位根据自己的雷达版对应函数修改即可
+<br>直入正题,由于笔者所使用的的雷达版型号为**IWR1843**,所对应上位机串口处理函数为
+<br>*def readAndParseUartDoubleCOMPort(self)*,各位根据自己的雷达版对应函数修改即可
 
-<br>其中，保存**二进制**文件的代码段为：
+<br>其中,保存**二进制**文件的代码段为:
 
 ````python
 ```
@@ -197,55 +197,55 @@ if __name__ == '__main__':
 
 ````python
 ```
-这段代码处理了接收到的数据帧(frameData)和保存二进制数据的逻辑。下面是对代码逻辑的解释：
-1. 如果启用了保存二进制数据的选项（self.saveBinary == 1），则执行以下操作：
-    将当前接收到的数据帧（frameData）添加到binData中。
-    每接收到framesPerFile帧数据时，保存一次数据。
-    uartCounter递增1，用于计算接收到的帧数。
-    如果uartCounter是framesPerFile的倍数，说明需要保存数据到文件。
-    第一次保存时需要设置路径：
-        如果first_file为True，即第一个文件，检查是否存在binData/文件夹，如果不存在，则创建该文件夹。
-        在binData/文件夹下创建self.filepath文件夹。
-        将first_file设置为False，表示已经设置过路径。
-    将binData转换为字节流（toSave）。
-    根据当前保存的文件编号（math.floor(self.uartCounter/self.framesPerFile)）构造文件名（fileName）。
-    打开文件（bfile）并将字节流写入文件。
-    关闭文件（bfile）。
-    重置binData，准备保存下一批数据。
-2.如果parserType是"DoubleCOMPort"，则调用parseStandardFrame函数解析接收到的数据帧（frameData），并将解析结果存储在outputDict中。
-3.如果parserType不是"DoubleCOMPort"，则打印错误信息"FAILURE: Bad parserType"。
-4.返回outputDict作为结果。
-总体上，这段代码实现了将接收到的数据帧保存为二进制文件，并调用相应的解析器对数据进行解析。解析的结果存储在outputDict中，并作为函数的返回值。
+这段代码处理了接收到的数据帧(frameData)和保存二进制数据的逻辑.下面是对代码逻辑的解释:
+1. 如果启用了保存二进制数据的选项(self.saveBinary == 1),则执行以下操作:
+    将当前接收到的数据帧(frameData)添加到binData中
+    每接收到framesPerFile帧数据时,保存一次数据。
+    uartCounter递增1,用于计算接收到的帧数
+    如果uartCounter是framesPerFile的倍数,说明需要保存数据到文件。
+    第一次保存时需要设置路径:
+        如果first_file为True,即第一个文件,检查是否存在binData/文件夹,如果不存在,则创建该文件夹
+        在binData/文件夹下创建self.filepath文件夹
+        将first_file设置为False,表示已经设置过路径
+    将binData转换为字节流(toSave)
+    根据当前保存的文件编号(math.floor(self.uartCounter/self.framesPerFile))构造文件名(fileName)
+    打开文件(bfile)并将字节流写入文件
+    关闭文件(bfile)
+    重置binData,准备保存下一批数据
+2.如果parserType是"DoubleCOMPort",则调用parseStandardFrame函数解析接收到的数据帧(frameData),并将解析结果存储在outputDict中
+3.如果parserType不是"DoubleCOMPort",则打印错误信息"FAILURE: Bad parserType"
+4.返回outputDict作为结果
+总体上,这段代码实现了将接收到的数据帧保存为二进制文件,并调用相应的解析器对数据进行解析.解析的结果存储在outputDict中,并作为函数的返回值
 ````
 
-<br>也就是，可以截取*outputDict*这个输出结果，仿照该代码段中bin文件保存的形式，进行xlsx，txt等等读者自己喜欢的方式保存文件！
+<br>也就是,可以截取*outputDict*这个输出结果,仿照该代码段中bin文件保存的形式,进行xlsx,txt等等读者自己喜欢的方式保存文件！
 
-<br>而*parseStandardFrame(frameData)*这个函数返回的值为一个字典，包含点云数，帧数，点云数据等内容，我们只需通过**上文所提供例程**的同样方法提取点云数据
+<br>而*parseStandardFrame(frameData)*这个函数返回的值为一个字典,包含点云数,帧数,点云数据等内容,我们只需通过**上文所提供例程**的同样方法提取点云数据
 
-<br>并且，可在函数开头修改*self.framesPerFile* 这个参数实现自定义采集帧率的代码啦
+<br>并且,可在函数开头修改*self.framesPerFile* 这个参数实现自定义采集帧率的代码啦
 
-> 请注意，修改后的上位机应该经过重新编译上位机主函数*gui_main.py*，python环境请自行配置
+> 请注意,修改后的上位机应该经过重新编译上位机主函数*gui_main.py*,python环境请自行配置
 
 ### 📉 采集结果
 
-<br>至此，我们便完成了自定义帧率的串口数据解析和采集啦！根据笔者提供的例程逻辑，解析后的数据如下所示：
+<br>至此,我们便完成了自定义帧率的串口数据解析和采集啦！根据笔者提供的例程逻辑,解析后的数据如下所示:
 
 <center>
 <img src = "/blogs/mmWaveGUI.assets/pointCloudDataxlsx.png" width="400" height="240">
 </center>
 
-<br>此教程旨在讲解如何修改TI上位机，读者可根据自己的项目需求自行调整
+<br>此教程旨在讲解如何修改TI上位机,读者可根据自己的项目需求自行调整
 
 <br>后续会将修改后的具体代码放到这个github仓库中(目前仅提供笔者所用的调试例程)
 
 ### 🏁 结语
 
-最后的最后，感谢你阅读这份文字。如果笔者的博客成功帮助你实现了串口数据的解析和采集，还请你给本仓库的右上角点一个**star**❤️。
+最后的最后,感谢你阅读这份文字。如果笔者的博客成功帮助你实现了串口数据的解析和采集,还请你给本仓库的右上角点一个**star**❤️
 
-与此同时，如果你有任何的建议/意见：
+与此同时,如果你有任何的建议/意见：
 
-- 欢迎你在Github Issues中提出意见，并附上建议方案
-- 或者在Github Discussions进行谈论，欢迎你提出任何看法
+- 欢迎你在Github Issues中提出意见,并附上建议方案
+- 或者在Github Discussions进行谈论,欢迎你提出任何看法
 - 联系我的QQ:3065566278 
 - 一起交流毫米波雷达项目吧😸~
 
