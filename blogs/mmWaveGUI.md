@@ -199,19 +199,19 @@ if __name__ == '__main__':
 ```
 这段代码处理了接收到的数据帧(frameData)和保存二进制数据的逻辑.下面是对代码逻辑的解释:
 1. 如果启用了保存二进制数据的选项(self.saveBinary == 1),则执行以下操作:
-    将当前接收到的数据帧(frameData)添加到binData中
-    每接收到framesPerFile帧数据时,保存一次数据。
-    uartCounter递增1,用于计算接收到的帧数
-    如果uartCounter是framesPerFile的倍数,说明需要保存数据到文件。
-    第一次保存时需要设置路径:
-        如果first_file为True,即第一个文件,检查是否存在binData/文件夹,如果不存在,则创建该文件夹
-        在binData/文件夹下创建self.filepath文件夹
-        将first_file设置为False,表示已经设置过路径
-    将binData转换为字节流(toSave)
-    根据当前保存的文件编号(math.floor(self.uartCounter/self.framesPerFile))构造文件名(fileName)
-    打开文件(bfile)并将字节流写入文件
-    关闭文件(bfile)
-    重置binData,准备保存下一批数据
+       将当前接收到的数据帧(frameData)添加到binData中
+       每接收到framesPerFile帧数据时,保存一次数据。
+       uartCounter递增1,用于计算接收到的帧数
+       如果uartCounter是framesPerFile的倍数,说明需要保存数据到文件。
+        第一次保存时需要设置路径:
+            如果first_file为True,即第一个文件,检查是否存在binData/文件夹,如果不存在,则创建该文件夹
+            在binData/文件夹下创建self.filepath文件夹
+            将first_file设置为False,表示已经设置过路径
+      将binData转换为字节流(toSave)
+      根据当前保存的文件编号(math.floor(self.uartCounter/self.framesPerFile))构造文件名(fileName)
+      打开文件(bfile)并将字节流写入文件
+      关闭文件(bfile)
+      重置binData,准备保存下一批数据
 2.如果parserType是"DoubleCOMPort",则调用parseStandardFrame函数解析接收到的数据帧(frameData),并将解析结果存储在outputDict中
 3.如果parserType不是"DoubleCOMPort",则打印错误信息"FAILURE: Bad parserType"
 4.返回outputDict作为结果
@@ -222,7 +222,7 @@ if __name__ == '__main__':
 
 <br>而*parseStandardFrame(frameData)*这个函数返回的值为一个字典,包含点云数,帧数,点云数据等内容,我们只需通过**上文所提供例程**的同样方法提取点云数据
 
-<br>并且,可在函数开头修改*self.framesPerFile* 这个参数实现自定义采集帧率的代码啦
+<br>并且,可在函数开头修改*self.framesPerFile* 这个参数实现自定义采集帧率的代码了
 
 > 请注意,修改后的上位机应该经过重新编译上位机主函数*gui_main.py*,python环境请自行配置
 
@@ -234,15 +234,15 @@ if __name__ == '__main__':
 <img src = "/blogs/mmWaveGUI.assets/pointCloudDataxlsx.png" width="400" height="240">
 </center>
 
-<br>此教程旨在讲解如何修改TI上位机,读者可根据自己的项目需求自行调整
+<br>此教程旨在讲解如何**修改**TI上位机,读者可根据自己的项目需求自行调整
 
-<br>后续会将修改后的具体代码放到这个github仓库中(目前仅提供笔者所用的调试例程)
+<br>后续会将修改后的具体代码放到这个[github仓库](https://github.com/Kanomace/mmWaveGui)中(目前仅提供笔者所用的调试例程)
 
 ### 🏁 结语
 
-最后的最后,感谢你阅读这份文字。如果笔者的博客成功帮助你实现了串口数据的解析和采集,还请你给本仓库的右上角点一个**star**❤️
+<br>最后的最后,感谢你阅读这份文字。如果笔者的博客成功帮助你实现了串口数据的解析和采集,还请你给[本仓库](https://github.com/Kanomace/mmWaveGui)的右上角点一个**star**❤️
 
-与此同时,如果你有任何的建议/意见：
+<br>与此同时,如果你有任何的建议/意见：
 
 - 欢迎你在Github Issues中提出意见,并附上建议方案
 - 或者在Github Discussions进行谈论,欢迎你提出任何看法
