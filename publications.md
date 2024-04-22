@@ -7,8 +7,8 @@ title: Publications
 ## Journal Paper
 
 - [LEET: stock market forecast with long-term emotional change enhanced temporal model](https://doi.org/10.7717/peerj-cs.1969)
-- <br>Honglin Liao, **Jiacheng Huang** ,Tang Yong
-- <br> PeerJ Computer Science March, 2024.(JCR, Q2).
+<br>Honglin Liao, **Jiacheng Huang** , Yong Tang
+<br> PeerJ Computer Science March, 2024.(JCR, Q2).
 
 ## Conference Paper
 
