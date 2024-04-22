@@ -6,13 +6,13 @@ title: Publications
 
 ## Journal Paper
 
-- [LEET: stock market forecast with long-term emotional change enhanced temporal model]()
+- [LEET: stock market forecast with long-term emotional change enhanced temporal model](https://doi.org/10.7717/peerj-cs.1969)
 - <br>Honglin Liao, **Jiacheng Huang** ,Tang Yong
 - <br> PeerJ Computer Science March, 2024.(JCR, Q2).
 
 ## Conference Paper
 
-- [Hybrid Detection Mechanism for Spoofing Attacks in Bluetooth Low Energy Networks]
+- [Hybrid Detection Mechanism for Spoofing Attacks in Bluetooth Low Energy Networks](https://www.sigmobile.org/mobisys/2024/)
 <br>Hanlin Cai, Yuchen Fang, **Jiacheng Huang**, Meng Yuan, Zhezhuang Xu
 <br>The 22nd ACM International Conference on Mobile Systems, Applications, and Services (MobiSys 2024)
 <br>Tokyo, Japan. June, 2024 (CCF-B).
