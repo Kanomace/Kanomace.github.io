@@ -8,29 +8,43 @@ title: research
 
 ## 实习经历
 
-- 福建帝视科技集团有限公司/福州大学国家大学科技园电力系统与装备产业研究院
-<br>**基于毫米波雷达的人体位姿感知系统**
-<br>• 指导老师:江灏教授 
-<br>• 岗位：雷达算法工程师/研究助理,2024.2.25-2023.5.25
-<br>• 描述：基于配电站实际场景，使用毫米波雷达评估板实现工作人员位姿判断以及轨迹跟踪
-<br>• 职责：利用TI的毫米波雷达实现系统实时采集点云数据，开发深度学习算法，实现人体位姿分类 
-<br>• 成果：所研发的系统参加了中国大学生研究生电子设计竞赛TI企业赛道，预计发表期刊论文一篇
+- Imperial Vision Technology/Power System and Equipment Industry Research Institute, Fuzhou University National Science Park  
+<br>**mmPowerHAR: A Framework Using mmRadar for Human Activity Recognition in Power Station** 
+<br>Research Assistant (supervised by Prof. Jiang Hao, Fuzhou University and Prof. Chen Zhenghua, Nanyang Technological University) 
+<br>Jan 2023 - present 
+<br>• Outline:  
+Based on the situations at the power distribution station, using mmWave radar evaluation boards to realise the determination of 
+personnel posture and trajectory tracking; 
+<br>• Responsibilities:  
+Implemented real-time data collection using TI’s mmWave radar, developed deep learning algorithms and achieved human pose 
+classification; 
+<br>• Achievement:  
+Authored a research paper and submitted to IEEE Transactions on Network Science and Engineering. 
 
-- 厦门梵识科技有限公司
-<br>**Fossil室内巡检无人机**
-<br>• 指导老师:江灏教授 
-<br>• 岗位：嵌入式软件工程师,2024.6.1-2023.9.1
-<br>• 描述：针对室内巡检难度，开发一款能够室内定位的小型无人机，实现工业场所的自动巡检 
-<br>• 职责：无人机硬件电路板测试，Mavlink无人机通信，室内巡检算法以及上位机软件系统开发
-<br>• 成果：成功研发无人机样机，所设计产品在福州创新园得到展示 
+- Xiamen Fanshi Intelligent Technology Co., Ltd. 
+<br>**Development of an Indoor Positioning Miniature UAV for Industrial Site Inspection** 
+<br>Embedded Software Engineer (supervised by Prof. Jiang Hao, Fuzhou University) 
+<br>May 2024 - Aug 2024
+<br>• Outline:  
+Developed a miniature UAV capable of indoor positioning to automate inspections in industrial settings; 
+<br>• Responsibilities:  
+Tested UAV hardware circuit boards, implemented Mavlink UAV communication, developed indoor inspection algorithms, and 
+designed upper computer software systems; 
+<br>• Achievement:  
+The drone prototype was successfully realized and showcased in Fuzhou Innovation Park. 
 
-- 福建启普新创科技有限公司 
-<br>**智能矿业风门控制系统**
-<br>• 指导老师:李兵磊教授
-<br>• 岗位：嵌入式工程师 2023.7.23-2023.8.30
-<br>• 描述：针对矿业现场环境的远程风门控制难题，使用ESP32研制快速门电机的外接通讯控制系统 
-<br>• 职责：使用Altium Designer进行通讯电路板硬件电路设计，实现MQTT通讯协议的定制以及软件应用系统开发 
-<br>• 成果：所设计产品在实际工业生产中得到应用，预计申请发明专利一项
+- Fujian Qipu Xinchuang Technology Co., Ltd. 
+<br>**Development of an Intelligent Mining Ventilation Door Control System **
+<br>Embedded Engineer (supervised by Prof.Li Binglei, Fuzhou University) 
+<br>June 2023 - Aug 2023 
+<br>• Outline:  
+Addressed the challenge of remote ventilation door control in mining environments by designing a fast door motor 
+communication control system using ESP32; 
+<br>• Responsibilities:  
+Designed communication circuit boards using Altium Designer, customized MQTT communication protocols, and developed 
+software application systems; 
+<br>• Achievement:  
+Applied the designed product in industrial production, with plans to apply for one patent. 
 
 ---
 
