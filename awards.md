@@ -4,6 +4,8 @@ permalink: /awards/index.html
 title: Awards
 ---
 
+> Lastest Update: 20th May 2024 &nbsp; [中文版本 (Chinese Version)](https://caihanlin.com/file/awards-zh/)
+
 ## 奖学金
 
 - 2024年03月：福州大学综合三等奖学金（¥5000）
