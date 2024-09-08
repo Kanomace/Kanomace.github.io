@@ -17,7 +17,7 @@ title: Awards
 
 ## 科研基金
 
-- 2023-2025: National Undergraduate Innovation and Entrepreneurship Training Program<br>National Key Program Scholarship (¥20,000)
+- 2023-2025: National Undergraduate Innovation and Entrepreneurship Training Program<br>**National Key** Program Scholarship (¥20,000)
 - 2024-2025: China International Student Innovation Competition Award Fund<br>Competition Award Fund (¥10,000)
 - 2023-2024: Provincial Undergraduate Innovation and Entrepreneurship Training Program<br>Provincial Key Program Scholarship (¥10,000)
 - 2023-2024: Cross-Strait Information Service Innovation Competition and Computer Software Design Competition<br>Competition Award Fund (¥13,000)

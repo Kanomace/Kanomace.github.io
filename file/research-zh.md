@@ -1,16 +1,16 @@
 ---
 layout: page
-permalink: /research/index.html
-title: research
+permalink: /file/research-zh/index.html
+title: Research-zh
 ---
 
-> Lastest Update: 9th Sep 2024 &nbsp; [中文版本 (Chinese Version)](https://jiachenghuang.com/file/awards-zh/)
+> Lastest Update: 9th Sep 2024 &nbsp; [English Version (英文)](https://jiachenghuang.com/awards/)
 
 ## 实习经历
 
 - 福建帝视科技集团有限公司/福州大学国家大学科技园电力系统与装备产业研究院
 <br>**基于毫米波雷达的人体位姿感知系统**
-<br>• 指导老师:江灏教授 
+<br>• 指导老师:江灏教授，陈正华教授 
 <br>• 岗位：雷达算法工程师/研究助理,2024.2.25-2023.5.25
 <br>• 描述：基于配电站实际场景，使用毫米波雷达评估板实现工作人员位姿判断以及轨迹跟踪
 <br>• 职责：利用TI的毫米波雷达实现系统实时采集点云数据，开发深度学习算法，实现人体位姿分类 
@@ -34,20 +34,13 @@ title: research
 
 ---
 
-## RESEARCH & PROJECTS 
+## 科研项目
 
-- National Undergraduate Innovation and Entrepreneurship Training Programme 
-<br>**Development of a Self-balancing Unicycle Robot Based on Visual Inspection **
-<br>Supervisor: Prof. Wang Wu, Fuzhou University 
-<br>06/2023-present 
-<br>• Outline:  
-Developed a unicycle robot capable of adapting to complex terrain and conducting visual inspections in realistic                
-industrial production environments; 
-<br>• Responsibilities:  
-Utilised Altium Designer for circuit design, conducted dynamic modelling of the -unicycle robot, and developed machine vision 
-in the field of robotics; 
-<br>• Achievement:  
-Secured a research grant over $3000; Authored a international conference paper and a software copyright. 
+- 国家级本科生创新创业训练计划,王武教授指导（研究经费20000元）,2023.06 - 2024.06
+<br>**基于视觉巡检的自平衡独轮机器人研制**
+<br>• 描述：基于现实工业生产环境，研制能够适应复杂地形，进行视觉巡检的独轮机器人
+<br>• 职责：使用Altium Designer完成电路设计，对独轮机器人进行动力学建模及机器视觉开发
+<br>• 成果：项目被评定为国家级项目，成功研发样机，产出国际会议论文一篇，软件著作一项
 
 - 省级本科生创新创业训练计划，陈炜铃教授指导（研究经费10000元）,2023.06 - 2024.06
 <br>**水下鱼类智能检测与监控系统**
@@ -60,7 +53,3 @@ Secured a research grant over $3000; Authored a international conference paper a
 <br>• 描述：探究基于PD 控制器的直流电机控制模型在3D打印领域的分析及其应用研究
 <br>• 职责：基于机械自动化反馈，使用Falstad和Tinkercad分析数字控制电路的微机电系统
 <br>• 成果：完成综述性报告一篇，最终结题成绩为B ，获得导师推荐信
-
----
-
-<br>Under Construction
