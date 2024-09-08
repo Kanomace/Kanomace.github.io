@@ -47,7 +47,6 @@ My current research is focused on addressing the real-world challenges encounter
 - Jun 2023: (activity) Our project on Unicycle Robot is rated as a national project.<br>
 - Mar 2023: (award) Received the Fuzhou University Comprehensive Third-Class Scholarship.<br>
 - Mar 2022: (award) Received the Fuzhou University Comprehensive Second-Class Scholarship.
-
 </div>
 
 > Lastest Update: 9th Sep 2024 1444
