@@ -24,7 +24,8 @@ I am currently seeking opportunities to pursue a Master's degree. If you are int
 - Internet of Things
 - IoT-enabled home
 
-My current research focuses on practical problems that artificial intelligence faces in real life. My interests are on the Machine Learning and its applications in Industrial IoT. In a word, advanced technologies like ML and IoT positively influence the life of everybody. I wish to devote my talent to this meaningful cause and bring well-being to society.
+My current research is focused on addressing the real-world challenges encountered by **artificial intelligence**. I am particularly interested in the application of **machine learning** in Industrial **IoT** and smart **sensors**. In the future, cutting-edge technologies in artificial intelligence and IoT will have a constructive impact on people's lives. I am eager to contribute my skills to this significant endeavor and enhance societal well-being.
+
 
 <br>
 
@@ -34,4 +35,12 @@ My current research focuses on practical problems that artificial intelligence f
 
 ## News and Updates
 
-Under Construction
+June 2024：Very excited to be selected as KDD UC Scholar. See you in Spain!
+May 2024：My undergraduate thesis won the Best Project Award (Top 1/300).
+April 2024：Our work BLEGuard has been accepted to MobiSys 2024 as a poster paper. See you in Japan!
+March 2024：Very excited to get a MPhil offer from Engineering department at Cambridge University!
+Dec 2023：Very excited to be selected as AAAI UC Scholar. See you in Canada!
+Aug 2023：Happy to be awarded the FEPG Scholarship.
+May 2023：Happy to be awarded the XiamenAir Scholarship.
+May 2023：Collected the Finalist Award in MCM 2023 (Top 1%).
+Jun 2022：Started research programme at Cambridge AI Group, advised by Prof. Pietro Liò.
