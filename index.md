@@ -34,11 +34,8 @@ My current research is focused on addressing the real-world challenges encounter
 <div style="text-align: justify;">
 
 - Aug 2024: (paper) Our paper has been accepted by <strong><font color='red'>KDD 2024</font></strong> (CCF-A). See you in Spain!
-
 - Jun 2024: (paper) Our paper BLEGuard has been accepted to <strong><font color='red'>MobiSys 2024</font></strong> as a poster paper. See you in Japan!
-
 - Mar 2024: (paper) Our paper LEET accepted by <strong><font color='red'>PeerJ Computer Science 2024</font></strong> (IF=6.1).
-
 - Mar 2024: (award) Received the Fuzhou University Comprehensive Third-Class Scholarship.
 - Feb 2024: (award) Received the "H Award" in the MCM competition.
 - Dec 2023: (award) Received the Fuzhou University Individual Award.
@@ -59,6 +56,5 @@ My current research is focused on addressing the real-world challenges encounter
 </div>
 
 
-- Nov 2023: 
 
-> Lastest Update: 9th Sep 2024 1444
+> Lastest Update: 9th Sep 2024
