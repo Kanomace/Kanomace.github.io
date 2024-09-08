@@ -4,7 +4,7 @@ permalink: /research/index.html
 title: research
 ---
 
-> Lastest Update: 9th Sep 2024 &nbsp; [中文版本 (Chinese Version)](https://jiachenghuang.com/file/awards-zh/)
+> Lastest Update: 9th Sep 2024 &nbsp; [中文版本 (Chinese Version)](https://jiachenghuang.com/file/research-zh/)
 
 ## 实习经历
 
@@ -36,10 +36,10 @@ title: research
 
 ## RESEARCH & PROJECTS 
 
-- National Undergraduate Innovation and Entrepreneurship Training Programme 
-<br>**Development of a Self-balancing Unicycle Robot Based on Visual Inspection **
+- Development of a Self-balancing Unicycle Robot Based on Visual Inspection
+<br>**National Undergraduate Innovation and Entrepreneurship Training Programme**
 <br>Supervisor: Prof. Wang Wu, Fuzhou University 
-<br>06/2023-present 
+<br>Jun 2023-present 
 <br>• Outline:  
 Developed a unicycle robot capable of adapting to complex terrain and conducting visual inspections in realistic                
 industrial production environments; 
@@ -49,18 +49,31 @@ in the field of robotics;
 <br>• Achievement:  
 Secured a research grant over $3000; Authored a international conference paper and a software copyright. 
 
-- 省级本科生创新创业训练计划，陈炜铃教授指导（研究经费10000元）,2023.06 - 2024.06
-<br>**水下鱼类智能检测与监控系统**
-<br>• 描述：提升YOLO目标检测算法在水下生物领域的应用，对检测数据进行可视化分析
-<br>• 职责：搭建客户端云平台将以及小程序APP，实现数据进行可视化分析及分析结果实时查询
-<br>• 成果：项目被评定为省级项目，完成最终结题报告，预计产出国际会议论文一篇
+- Intelligent Detection and Monitoring System for Underwater Fish 
+<br>**Provincial Undergraduate Innovation and Entrepreneurship Training Programme **
+<br>Supervisor: Prof. Chen Weiling, Fuzhou University 
+<br>Jun 2023-Jun 2024
+<br>• Outline:  
+Elevated the application of the YOLO object detection algorithm in the field of underwater biology and visualized the analysis 
+of detection data; 
+<br>• Responsibilities:  
+Established a client cloud platform and a mini-program app to analyse and provide real-time querying of detection information 
+visually; 
+<br>• Achievement: 
+Secured a research grant over $1500; Completed the final project completion report. 
 
-- 嵌入式系统及机电一体化科研，Micheal（普林斯顿大学系主任）指导,2023.05 - 2023.07
-<br>**微控制器在智能体设计及3D打印等数字制造的应用研究**
-<br>• 描述：探究基于PD 控制器的直流电机控制模型在3D打印领域的分析及其应用研究
-<br>• 职责：基于机械自动化反馈，使用Falstad和Tinkercad分析数字控制电路的微机电系统
-<br>• 成果：完成综述性报告一篇，最终结题成绩为B ，获得导师推荐信
-
+- Application of Microcontrollers to the Design of Intelligent Bodies and Digital Manufacturing such as 3D Printing 
+<br>Supervisor: Prof. Michael Littman, MAE Departmental Representative and Director of Undergraduate Studies, School of Engineering 
+and Applied Science, Princeton University 
+<br>May 2023-Jul 2023
+<br>• Outline:  
+Explored the analysis of the PD controller-based DC motor control model in the field of 3D Printing and conducted research on 
+its applications; 
+<br>• Responsibilities:  
+Analysed the micro-electromechanical systems of digital control circuits using Falstad and Tinkercad based on mechanical 
+automation feedback; 
+<br>• Achievement:  
+Authored a international conference paper and received a recommendation letter from the supervisor.
 ---
 
 <br>Under Construction

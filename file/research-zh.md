@@ -4,7 +4,7 @@ permalink: /file/research-zh/index.html
 title: Research-zh
 ---
 
-> Lastest Update: 9th Sep 2024 &nbsp; [English Version (英文)](https://jiachenghuang.com/awards/)
+> Lastest Update: 9th Sep 2024 &nbsp; [English Version (英文)](https://jiachenghuang.com/research/)
 
 ## 实习经历
 
