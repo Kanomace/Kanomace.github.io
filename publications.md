@@ -18,12 +18,12 @@ title: Publications
 
 ## Conference Paper
 
-- Securing Billion Bluetooth Low Energy Devices Using Cyber-Physical Analysis and Deep Learning Techniques
+- [Securing Billion Bluetooth Low Energy Devices Using Cyber-Physical Analysis and Deep Learning Techniques](https://kdd2024.kdd.org/undergraduate-consortium/)
 <br> Hanlin Cai, Yucheng Fang, **Jiacheng Huang**, Honglin Liao, Meng Yuan, Zhezhuang Xu 
 <br> *ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD 2024, CCF-A)* 
 <br> Barcelona, Spainbay. Aug, 2024.
 
-- [Hybrid Detection Mechanism for Spoofing Attacks in Bluetooth Low Energy Networks](https://www.sigmobile.org/mobisys/2024/)
+- [Hybrid Detection Mechanism for Spoofing Attacks in Bluetooth Low Energy Networks](https://www.sigmobile.org/mobisys/2024/accepted-posters.html)
 <br> Hanlin Cai, Yuchen Fang, **Jiacheng Huang**, Meng Yuan, Zhezhuang Xu
 <br> *ACM International Conference on Mobile Systems, Applications, and Services (MobiSys 2024, CCF-B)*
 <br> Tokyo, Japan. June, 2024.
