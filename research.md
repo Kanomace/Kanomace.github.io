@@ -20,15 +20,15 @@ classification;
 <br>• **Achievement**:  
 Authored a research paper and submitted to IEEE Transactions on Network Science and Engineering. 
 
-- Xiamen Fanshi Intelligent Technology Co., Ltd.(May 2024 - Aug 2024)
+- **Xiamen Fanshi Intelligent Technology Co., Ltd.**(May 2024 - Aug 2024)
 <br>**Development of an Indoor Positioning Miniature UAV for Industrial Site Inspection** 
 <br>Embedded Software Engineer (supervised by Prof. Jiang Hao, Fuzhou University) 
-<br>• Outline:  
+<br>• **Outline**:  
 Developed a miniature UAV capable of indoor positioning to automate inspections in industrial settings; 
-<br>• Responsibilities:  
+<br>• **Responsibilities**:  
 Tested UAV hardware circuit boards, implemented Mavlink UAV communication, developed indoor inspection algorithms, and 
 designed upper computer software systems; 
-<br>• Achievement:  
+<br>• **Achievement**:  
 The drone prototype was successfully realized and showcased in Fuzhou Innovation Park. 
 
 - Fujian Qipu Xinchuang Technology Co., Ltd.(June 2023 - Aug 2023) 
