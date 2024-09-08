@@ -6,7 +6,7 @@ title: research
 
 > Lastest Update: 9th Sep 2024 &nbsp; [中文版本 (Chinese Version)](https://jiachenghuang.com/file/research-zh/)
 
-## 实习经历
+## Internship Experience
 
 - Imperial Vision Technology/Power System and Equipment Industry Research Institute, Fuzhou University National Science Park(Jan 2023 - present)
 <br>**mmPowerHAR: A Framework Using mmRadar for Human Activity Recognition in Power Station** 
@@ -45,7 +45,7 @@ Applied the designed product in industrial production, with plans to apply for o
 
 ---
 
-## RESEARCH & PROJECTS 
+## Research Projects
 
 - Development of a Self-balancing Unicycle Robot Based on Visual Inspection(Jun 2023-present)
 <br>**National Undergraduate Innovation and Entrepreneurship Training Programme**

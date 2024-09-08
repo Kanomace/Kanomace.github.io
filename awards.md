@@ -15,7 +15,7 @@ title: Awards
 <br> Combined degree scholarship between FZU and Maynooth
 
 
-## 科研基金
+## Research Funding
 
 - 2023-2025: National Undergraduate Innovation and Entrepreneurship Training Program<br>**National Key** Program Scholarship (¥20,000)
 - 2024-2025: China International Student Innovation Competition Award Fund<br>Competition Award Fund (¥10,000)
