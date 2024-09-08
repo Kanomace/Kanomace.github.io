@@ -60,7 +60,7 @@ My current research is focused on addressing the real-world challenges encounter
     <li>Dec 2013: (award)Received <strong>First Prize and Best Technical Innovation Award</strong> in Cross-Strait Information Service Innovation Competition and Computer Software Design Competition.</li>
     <li>Dec 2023: (award)Received <strong>International Bronze Award</strong> in China International "Internet Plus" College Students Innovation and Entrepreneurship Competition.</li>
     <li>Nov 2023: (paper)Our paper on Automatic Pricing accepted by <strong>IEECT 2023</strong>.</li>
-    <li>Nov 2023: (activity)Received a research assistant at the Power System and Equipment Industry Research Institute under the guidance of Prof. <strong>Jiang Hao</strong>.</li>
+    <li>Nov 2023: (activity)Became a research assistant at the Power System and Equipment Industry Research Institute under the guidance of Prof. <strong>Jiang Hao</strong>.</li>
     <li>Sep 2023: (service)Served as vice Captain of the Fuzhou University 206 Intelligent Vehicle Team.</li>
     <li>Aug 2023: (award)Received <strong>National Second Prize</strong> in College Students Internet of Things Technology and Application Competition.</li>
     <li>Aug 2013: (award)Received <strong>Third Prize</strong> in National College Students Electronic Design Competition Fujian Division.</li>
