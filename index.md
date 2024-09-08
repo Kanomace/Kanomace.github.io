@@ -24,7 +24,7 @@ Here is **Jiacheng Huang (Kano,黄家成)**.
 </style>
 
 <div class="justify-text">
-    Welcome to my academic homepage! I am a final-year undergrad majoring in EE at Fuzhou University and Maynooth University (Combined Degrees). Currently, I am working as a research assistant at the Institute of Electrical Power Systems and Equipment, under the supervision of Professor Jiang Hao and Dr. Yin Cunyi.
+    Welcome to my academic homepage! I am a final-year undergrad majoring in EE at Fuzhou University and Maynooth University (Combined Degrees). At present, I am working as a research assistant at the Institute of Electrical Power Systems and Equipment, under the supervision of Professor Jiang Hao and Dr. Yin Cunyi.
     <br><br>
     I am currently seeking opportunities to pursue a Master's degree. If you are interested in any aspect of me, I would love to chat and collaborate, please email me at - jiacheng.huang@ieee.org
 </div>
