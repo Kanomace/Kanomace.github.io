@@ -28,11 +28,10 @@ My current research is focused on addressing the real-world challenges encounter
 
 <div style="text-align: justify;">
 
-- Aug 2024: (paper) Our paper has been accepted by **<font color='red'>KDD 2024</font>**(CCF-A). See you in Spain!
-
-- Jun 2024: (paper) Our paper BLEGuard has been accepted to **<font color='red'>MobiSys 2024</font>** as a poster paper. See you in Japan!
-- Mar 2024: (paper) Our paper LEET accepted by **<font color='red'>PeerJ Computer Science 2024</font>**(IF=6.1).
-- Mar 2024：(award) Received the Fuzhou University Comprehensive Third-Class Scholarship.
+- Aug 2024: (paper) Our paper has been accepted by **<font color='red'>KDD 2024</font>**(CCF-A). See you in Spain! 
+- Jun 2024: (paper) Our paper BLEGuard has been accepted to **<font color='red'>MobiSys 2024</font>** as a poster paper. See you in Japan! 
+- Mar 2024: (paper) Our paper LEET accepted by **<font color='red'>PeerJ Computer Science 2024</font>**(IF=6.1). 
+- Mar 2024：(award) Received the Fuzhou University Comprehensive Third-Class Scholarship. 
 - Feb 2024: (award) Receivede the "H Award" in the MCM competition.
 - Dec 2023：(award) Received the Fuzhou University Individual Award.
 - Dec 2023: (paper) Our paper on Unicycle Robot accepted by **MEAI 2023**.
