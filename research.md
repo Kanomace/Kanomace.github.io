@@ -8,16 +8,16 @@ title: research
 
 ## Internship Experience
 
-- Imperial Vision Technology/Power System and Equipment Industry Research Institute, Fuzhou University National Science Park(Jan 2023 - present)
-<br>**mmPowerHAR: A Framework Using mmRadar for Human Activity Recognition in Power Station** 
+- **Imperial Vision Technology/Power System and Equipment Industry Research Institute**(Jan 2023 - present)
+<br>mmPowerHAR: A Framework Using mmRadar for Human Activity Recognition in Power Station
 <br>Research Assistant (supervised by Prof. Jiang Hao, Fuzhou University and Prof. Chen Zhenghua, Nanyang Technological University) 
-<br>• Outline:  
+<br>• **Outline**:  
 Based on the situations at the power distribution station, using mmWave radar evaluation boards to realise the determination of 
 personnel posture and trajectory tracking; 
-<br>• Responsibilities:  
+<br>• **Responsibilities**:  
 Implemented real-time data collection using TI’s mmWave radar, developed deep learning algorithms and achieved human pose 
 classification; 
-<br>• Achievement:  
+<br>• **Achievement**:  
 Authored a research paper and submitted to IEEE Transactions on Network Science and Engineering. 
 
 - Xiamen Fanshi Intelligent Technology Co., Ltd.(May 2024 - Aug 2024)
