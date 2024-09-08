@@ -20,8 +20,6 @@ I am currently seeking opportunities to pursue a Master's degree. If you are int
 - Internet of Things
 - IoT-enabled home
 
-<div style="text-align: justify;">
-
 My current research is focused on addressing the real-world challenges encountered by **artificial intelligence**. I am particularly interested in the application of **machine learning** in Industrial **IoT** and smart **sensors**. In the future, cutting-edge technologies in artificial intelligence and IoT will have a constructive impact on people's lives. I am eager to contribute my skills to this significant endeavor and enhance societal well-being.
 
 ---
@@ -40,10 +38,11 @@ My current research is focused on addressing the real-world challenges encounter
 - Dec 2023: (award) Received **International Bronze Award** in China International "Internet Plus" College Students Innovation and Entrepreneurship Competition.
 - Nov 2023: (paper) Our paper on Automatic Pricing accepted by **IEECT 2023**.
 - Nov 2023: (activity) Received a research assistant at the Power System and Equipment Industry Research Institute under the guidance of Prof.**Jiang Hao**.
-- Sep 2023: (service) Served as vice Captain of the Fuzhou University 206 Intelligent Vehicle Team
+- Sep 2023: (service) Served as vice Captain of the Fuzhou University 206 Intelligent Vehicle Team.
 - Aug 2023: (award) Received **National Second Prize** in College Students Internet of Things Technology and Application Competition.
-- Aug 2023: (award) Received **Third Prize** in National College Students Electronic Design Competition Fujian Division 
-- Jul 2023: (award) Received **Outstanding Award** in National College Students Intelligent Car Competition South China Region 
+- Aug 2023: (award) Received **Third Prize** in National College Students Electronic Design Competition Fujian Division. 
+- Jul 2023: (award) Received **Outstanding Award** in National College Students Intelligent Car Competition South China Region.
+- Jun 2023: (activity) Our project on Unicycle Robot is rated as a national project 
 - Mar 2023：(award) Received the Fuzhou University Comprehensive Third-Class Scholarship.
 - Mar 2022：(award) Received the Fuzhou University Comprehensive Second-Class Scholarship.
 
