@@ -6,7 +6,7 @@ title: Research-zh
 
 > Lastest Update: 9th Sep 2024 &nbsp; [English Version (英文)](https://jiachenghuang.com/research/)
 
-## 实习经历
+## Internship Experience
 
 - 福建帝视科技集团有限公司/福州大学国家大学科技园电力系统与装备产业研究院
 <br>**基于毫米波雷达的人体位姿感知系统**
@@ -34,7 +34,7 @@ title: Research-zh
 
 ---
 
-## 科研项目
+## Research Projects
 
 - 国家级本科生创新创业训练计划,王武教授指导（研究经费20000元）,2023.06 - 2024.06
 <br>**基于视觉巡检的自平衡独轮机器人研制**
