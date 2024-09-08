@@ -8,9 +8,13 @@ layout: page
 
 Here is **Jiacheng Huang (Kano,黄家成)**.
 
+<div style="text-align: justify;">
+
 Welcome to my academic homepage! I am a final-year undergrad majoring in EE at Fuzhou University and Maynooth University (Combined Degrees). Currently, I am working as a research assistant at the Institute of Electrical Power Systems and Equipment, under the supervision of Professor Jiang Hao and Dr. Yin Cunyi.
 
 I am currently seeking opportunities to pursue a Master's degree. If you are interested in any aspect of me, I would love to chat and collaborate, please email me at - jiacheng.huang@ieee.org
+
+</div>
 
 ---
 
@@ -21,9 +25,7 @@ I am currently seeking opportunities to pursue a Master's degree. If you are int
 - IoT-enabled home
 
 <div style="text-align: justify;">
-
-My current research is focused on addressing the real-world challenges encountered by **artificial intelligence**. I am particularly interested in the application of **machine learning** in Industrial **IoT** and smart **sensors**. In the future, cutting-edge technologies in artificial intelligence and IoT will have a constructive impact on people's lives. I am eager to contribute my skills to this significant endeavor and enhance societal well-being.
-
+My current research is focused on addressing the real-world challenges encountered by <strong>artificial intelligence</strong>. I am particularly interested in the application of <strong>machine learning</strong> in Industrial <strong>IoT</strong> and smart <strong>sensors</strong>. In the future, cutting-edge technologies in artificial intelligence and IoT will have a constructive impact on people's lives. I am eager to contribute my skills to this significant endeavor and enhance societal well-being.
 </div>
 
 ---
