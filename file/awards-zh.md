@@ -4,12 +4,7 @@ permalink: /file/awards-zh/index.html
 title: Awards-zh
 ---
 
-## 主持基金
-
-- 2023-2024：国家级大学生创新创业训练计划 ¥20000
-- 2023-2024：全国青年科普创新实验暨项目大赛奖励基金 ¥5000
-
-> 更新时间：2024/05/20 &nbsp; [English Version (英文)](https://caihanlin.com/awards/)
+> 更新时间：2024/05/20 &nbsp; [English Version (英文)](https://jiachenghuang.com/awards/)
 
 ## 综合奖学金
 

@@ -4,7 +4,7 @@ permalink: /publications/index.html
 title: Publications
 ---
 
-> Update: 9rd Sep 2024
+> Lastest Update: 9th Sep 2024
 
 ## Journal Paper
 
