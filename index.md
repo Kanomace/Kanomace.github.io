@@ -36,10 +36,11 @@ My current research is focused on addressing the real-world challenges encounter
 </style>
 
 <ul class="timeline">
-    <li>-Aug 2024: (paper) Our paper has been accepted by <strong><font color='red'>KDD 2024</font></strong> (CCF-A). See you in Spain!</li>
-    <li>-Jun 2024: (paper) Our paper BLEGuard has been accepted to <strong><font color='red'>MobiSys 2024</font></strong> as a poster paper. See you in Japan!</li>
-    <li>- Mar 2024: (paper) Our paper LEET accepted by <strong><font color='red'>PeerJ Computer Science 2024</font></strong> (IF=6.1).</li>
-    <li>- Mar 2024: (award) Received the Fuzhou University Comprehensive Third-Class Scholarship.</li>
+
+    <li>Aug 2024: (paper) Our paper has been accepted by <strong><font color='red'>KDD 2024</font></strong> (CCF-A). See you in Spain!</li>
+    <li>Jun 2024: (paper) Our paper BLEGuard has been accepted to <strong><font color='red'>MobiSys 2024</font></strong> as a poster paper. See you in Japan!</li>
+    <li>Mar 2024: (paper) Our paper LEET accepted by <strong><font color='red'>PeerJ Computer Science 2024</font></strong> (IF=6.1).</li>
+    <li>Mar 2024: (award) Received the Fuzhou University Comprehensive Third-Class Scholarship.</li>
     <li>Feb 2024: (award) Received the "H Award" in the MCM competition.</li>
     <li>Dec 2023: (award) Received the Fuzhou University Individual Award.</li>
     <li>Dec 2023: (paper) Our paper on Unicycle Robot accepted by <strong>MEAI 2023</strong>.</li>
@@ -55,6 +56,7 @@ My current research is focused on addressing the real-world challenges encounter
     <li>Jun 2023: (activity) Our project on Unicycle Robot is rated as a national project.</li>
     <li>Mar 2023: (award) Received the Fuzhou University Comprehensive Third-Class Scholarship.</li>
     <li>Mar 2022: (award) Received the Fuzhou University Comprehensive Second-Class Scholarship.</li>
+    
 </ul>
 
 > Lastest Update: 9th Sep 2024 
