@@ -33,7 +33,7 @@ The drone prototype was successfully realized and showcased in Fuzhou Innovation
 
 - **Fujian Qipu Xinchuang Technology Co., Ltd.**(June 2023 - Aug 2023) 
 <br>Development of an Intelligent Mining Ventilation Door Control System
-<br>Embedded Engineer (supervised by Prof.Li Binglei, Fuzhou University)  
+<br>Embedded Engineer (supervised by Prof.Li Binglei, Fuzhou University)
 <br>• **Outline**:  
 Addressed the challenge of remote ventilation door control in mining environments by designing a fast door motor 
 communication control system using ESP32; 
