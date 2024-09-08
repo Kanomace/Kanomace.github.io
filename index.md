@@ -34,8 +34,8 @@ Here is **Jiacheng Huang (Kano,黄家成)**.
 ## Research Interests
 
 - Applied Machine Learning
-- Internet of Things
-- IoT-enabled home
+- Industrial Internet of Things
+- Intelligent Sensor
 
 <ul class="timeline">
 
