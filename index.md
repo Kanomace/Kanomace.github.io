@@ -20,11 +20,7 @@ I am currently seeking opportunities to pursue a Master's degree. If you are int
 - Internet of Things
 - IoT-enabled home
 
-<div style="text-align: justify;">
-
 My current research is focused on addressing the real-world challenges encountered by **artificial intelligence**. I am particularly interested in the application of **machine learning** in Industrial **IoT** and smart **sensors**. In the future, cutting-edge technologies in artificial intelligence and IoT will have a constructive impact on people's lives. I am eager to contribute my skills to this significant endeavor and enhance societal well-being.
-
-</div>
 
 ---
 
