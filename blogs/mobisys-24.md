@@ -4,15 +4,21 @@ permalink: /blogs/mobisys-24/index.html
 title: mobisys-24
 ---
 
-## Mobisys/KDD-24 参会实录
+## Mobisys/KDD 本科生参会记录
 
 > Lastest Update: 9th Sep 2024
 
-本文记录了笔者参加Mobisys-24的心路历程，笔者在此之前没有参会经历
+本文记录了笔者参加Mobisys-24的~~吃播~~实录，笔者在此之前没有参会经历
 
-<br>具体的申请timeline如下，均为北京时间：
+近期在网上看到某大牛给底下研究生and博士生的参会手册。其中“不要和大牛抢蛋糕”戳中了我的笑点，也启发了这篇随笔，本意是想记录一些作为一个本科生是如何在高校博士and大牛遍布的知名国际会议中~~抢茶歇~~自信交流的经验
 
-- **12.15**：晚上10点，收到[AAAI-UC 2024](https://aaai.org/aaai-conference/undergraduate-consortium/)的中稿邮件
+> 非常感谢蔡汉霖学长和方宇辰学长在论文写作和参会经验的指导,他们在我的本科生涯帮助了我很多，预祝他们在剑桥和布里斯托的学业顺利~
+
+#### Timeline
+
+<br>具体的申请如下，均为北京时间：
+
+- **04.20**：晚上10点，收到[MobiSys 2024](https://www.sigmobile.org/mobisys/2024/accepted-posters.html)的中稿邮件
 - **12.17**：开始准备加拿大签证材料（各种流水）
 - **12.19**：旧护照过期，在福州市民中心办理新护照
 - **12.21**：在[getregistered](https://aaai.getregistered.net/conference-2024)注册了会议，全选花了250刀
