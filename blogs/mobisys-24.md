@@ -4,11 +4,11 @@ permalink: /blogs/mobisys-24/index.html
 title: mobisys-24
 ---
 
-## AAAI-2024 参会实录
+## Mobisys/KDD-24 参会实录
 
-> 更新时间：2024/03/20
+> Lastest Update: 9th Sep 2024
 
-本文记录了笔者参加AAAI 2024的心路历程，笔者在此之前没有签证经历（白本护照，福建户口，敏感专业+地区）
+本文记录了笔者参加Mobisys-24的心路历程，笔者在此之前没有参会经历
 
 <br>具体的申请timeline如下，均为北京时间：
 

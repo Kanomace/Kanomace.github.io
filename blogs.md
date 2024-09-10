@@ -4,10 +4,13 @@ permalink: /blogs/index.html
 title: Blogs
 ---
 
+> Lastest Update: 9th Sep 2024
+
 ## Chinese Blogs
 
 ### 2024
 
+- [Mobisys-Tokyo 本科生参会实录](https://jiachenghuang.com//blogs/mobisys-24)<br>
 - [206智能车队硬件培训](https://jiachenghuang.com//blogs/206yingjian)<br>
 - [毫米波雷达文献综述](https://jiachenghuang.com//blogs/mmWave)<br>
 - [毫米波雷达串口采集点云数据](https://jiachenghuang.com//blogs/mmWaveGUI)<br>
