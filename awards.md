@@ -27,7 +27,7 @@ title: Awards
 ## Competitions
 
 - Feb 2024: The 26th International Mathematical Contest for University Students **H Award**
-- Dec 2023: The 13th Cross-Strait Information Service Innovation Competition and the 17th Fujian Province Computer Software Design Competition **First Prize and Best Technical Innovation Award**
+- Dec 2023: The 13th Cross-Strait Information Service Innovation Competition and the 17th Fujian Province Computer Software Design Competition <strong><font color='red'>First Prize and Best Technical Innovation Award</font></strong>
 - Dec 2023: The 9th China International "Internet Plus" College Students Innovation and Entrepreneurship Competition **International Bronze Award**
 - Dec 2023: 2023-2024 Academic Year "Challenge Cup" Fuzhou University College Students Entrepreneurship Plan Competition School Level **Second Prize**
 - Nov 2023: The 9th China International "Internet Plus" College Students Innovation and Entrepreneurship Competition **Finalist**
