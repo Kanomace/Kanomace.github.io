@@ -74,7 +74,7 @@ AAAI-UC提供差旅费和住宿费的全奖，预计住在Pinnacle Hotel Harbour
 
 #### 一些闲言碎语
 
-攒人品ing，希望今年KDD 2024顺利中稿，再玩一趟！
+攒人品ing，希望今年IEEE Trans顺利中稿~
 
 <br>
 
