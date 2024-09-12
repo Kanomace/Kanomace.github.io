@@ -60,7 +60,12 @@ title: mobisys-24
 
 ### Day3，6月4日
 
-1. 参加学术会议poster展示，*5th Floor, Toranomon Hills Mori Tower, 1-23-3 Toranomon, Minato-ku, Tokyo 105-6305, Japan*
+1. 会议展示环节(*5th Floor, Toranomon Hills Mori Tower, 1-23-3 Toranomon, Minato-ku, Tokyo 105-6305, Japan*)
+
+会场有Paper，Poster以及Demo等多种形式，不仅有来自高校的博士，教授。还有一些知名的企业（Sony）会到现场了解前沿技术
+
+可以随时到他人的项目面前了解他们的工作，也可以向他们介绍自己的项目（PS：茶歇还不错~）
+
 
 
 ### Day4，6月5日
