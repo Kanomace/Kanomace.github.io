@@ -36,17 +36,23 @@ title: mobisys-24
 ### Day2，6月3日
 
 1. 参与主会议，听大佬演讲
+
 <center>
 <img src="/blogs/mobisys-24.assets/IMG_20240603_102231.png">
 </center>
-2. 秋叶原电器街，浅草寺
+
+1. 秋叶原电器街，浅草寺
+
 <center>
 <img src="/blogs/mobisys-24.assets/IMG_20240603_143627.png">
 </center>
-3. 东京旅游官方为会议人员提供免费夜间巴士旅游，需要会议期间预订（东京天空树&东京晴空街道）
+
+1. 东京旅游官方为会议人员提供免费夜间巴士旅游，需要会议期间预订（东京天空树&东京晴空街道）
+
 <center>
 <img src="/blogs/mobisys-24.assets/IMG_20240603_191514.png">
 </center>
+
 
 ### Day3，6月4日
 
