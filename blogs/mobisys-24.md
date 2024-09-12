@@ -39,9 +39,14 @@ title: mobisys-24
 <center>
 <img src="/blogs/mobisys-24.assets/IMG_20240603_102231.png">
 </center>
-2. 秋叶原电器街（二刺螈天堂，买纪念品~）
-3. 浅草寺（小吃，市场，参拜就算了hh）
-4. 18:30 - 21:30 东京免费夜间巴士旅游，需要会议期间预订（东京天空树&东京晴空街道）
+2. 秋叶原电器街，浅草寺
+<center>
+<img src="/blogs/mobisys-24.assets/IMG_20240603_143627.png">
+</center>
+3. 东京旅游官方为会议人员提供免费夜间巴士旅游，需要会议期间预订（东京天空树&东京晴空街道）
+<center>
+<img src="/blogs/mobisys-24.assets/IMG_20240603_191514.png">
+</center>
 
 ### Day3，6月4日
 
