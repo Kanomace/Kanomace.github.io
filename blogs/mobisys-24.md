@@ -38,7 +38,11 @@ title: mobisys-24
 1. 参与主会议，听大佬演讲
 
 <center>
-<img src="/blogs/mobisys-24.assets/IMG_20240603_102231.png">
+<img src = "/blogs/206yingjian.assets/AD21.png">
+</center>
+
+<center>
+<img src = "/blogs/mobisys-24.assets/IMG_20240603_102231.png">
 </center>
 
 1. 秋叶原电器街，浅草寺
