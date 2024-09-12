@@ -37,24 +37,21 @@ title: mobisys-24
 
 1. 参与主会议，听大佬演讲
 
-<center>
-<img src = "/blogs/206yingjian.assets/AD21.png">
-</center>
 
 <center>
-<img src = "/blogs/mobisys-24.assets/IMG_20240603_102231.png">
+<img src = "/blogs/mobisys-24.assets/IMG_20240603_102231.jpg">
 </center>
 
 1. 秋叶原电器街，浅草寺
 
 <center>
-<img src="/blogs/mobisys-24.assets/IMG_20240603_143627.png">
+<img src="/blogs/mobisys-24.assets/IMG_20240603_143627.jpg">
 </center>
 
 1. 东京旅游官方为会议人员提供免费夜间巴士旅游，需要会议期间预订（东京天空树&东京晴空街道）
 
 <center>
-<img src="/blogs/mobisys-24.assets/IMG_20240603_191514.png">
+<img src="/blogs/mobisys-24.assets/IMG_20240603_191514.jpg">
 </center>
 
 
