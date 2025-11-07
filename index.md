@@ -48,7 +48,7 @@ My current research is focused on addressing the real-world challenges encounter
 ## News and Updates
 
 <ul class="timeline">
-
+    <li>Jul 2025: (paper)My paper has been accepted by <strong><font color='red'>Best Bachelor Thesis Award </font></strong> (Top 1/300).</li>
     <li>Aug 2024: (paper)Our paper has been accepted by <strong><font color='red'>KDD 2024</font></strong> (CCF-A). See you in Spain!</li>
     <li>Jun 2024: (paper)Our paper BLEGuard has been accepted to <strong><font color='red'>MobiSys 2024</font></strong> (CCF-B)as a poster paper. See you in Japan!</li>
     <li>Mar 2024: (paper)Our paper LEET accepted by <strong><font color='red'>PeerJ Computer Science 2024</font></strong> (IF=3.5).</li>
