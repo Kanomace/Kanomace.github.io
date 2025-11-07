@@ -1,13 +1,14 @@
 ---
 layout: page
 permalink: /awards/index.html
-title: Awards
+title: awards
 ---
 
 > Lastest Update: 6th Sep 2024 &nbsp; [中文版本 (Chinese Version)](https://jiachenghuang.com/file/awards-zh/)
 
 ## Scholarships
 
+- Jul 2025：Maynoot University Best Final Year Project Award (€500)
 - Mar 2024：Fuzhou University Comprehensive Third-Class Scholarship (¥5000)
 - Dec 2023：Fuzhou University Individual Award for Spiritual Civilization Advancement
 - Mar 2023：Fuzhou University Comprehensive Third-Class Scholarship (¥5000)

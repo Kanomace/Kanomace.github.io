@@ -1,13 +1,14 @@
 ---
 layout: page
 permalink: /file/awards-zh/index.html
-title: Awards-zh
+title: awards-zh
 ---
 
 > Lastest Update: 6th Sep 2024 &nbsp; [English Version (英文)](https://jiachenghuang.com/awards/)
 
 ## 综合奖学金
 
+- 2025年07月：国立梅努斯大学最佳学术论文奖学金奖学金（€500）
 - 2024年03月：福州大学综合三等奖学金（¥5000）
 - 2023年12月：福州大学精神文明先进个人单项奖学金
 - 2023年03月：福州大学综合三等奖学金（¥5000）
