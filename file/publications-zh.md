@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /file/research-zh/index.html
+permalink: /file/publication-zh/index.html
 title: publications-zh
 ---
 
-> 最后更新：2024年9月9日
+> Lastest Update: 7th Nov 2025 &nbsp; [English Version (英文)](https://jiachenghuang.com/awards/)
 
 ## 期刊论文
 
@@ -42,6 +42,3 @@ title: publications-zh
 
 - 国家级大学生科研训练项目论文：基于视觉检测的自平衡独轮机器人开发.<br>**黄嘉诚**, 陈淑娟, 张国勋<br>研究中
 
----
-
-<br>持续更新中

@@ -4,7 +4,7 @@ permalink: /file/awards-zh/index.html
 title: awards-zh
 ---
 
-> Lastest Update: 6th Sep 2024 &nbsp; [English Version (英文)](https://jiachenghuang.com/awards/)
+> Lastest Update: 7th Nov 2025 &nbsp; [English Version (英文)](https://jiachenghuang.com/awards/)
 
 ## 综合奖学金
 

@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /file/research-zh/index.html
-title: Research-zh
+title: research-zh
 ---
 
-> Lastest Update: 9th Sep 2024 &nbsp; [English Version (英文)](https://jiachenghuang.com/research/)
+> Lastest Update: 7th Nov 2025 &nbsp; [English Version (英文)](https://jiachenghuang.com/research/)
 
 ## 实习经历
 
@@ -36,6 +36,13 @@ title: Research-zh
 
 ## 科研项目
 
+- 南洋理工大学 Delta–NTU 企业联合实验室, Khong Wai Hoong副教授指导, 2025.10–至今  
+<br>**基于毫米波雷达的多人穿墙动作感知 (SkelCN-HAR)**  
+<br>• 描述：提出一种基于骨架引导的毫米波雷达穿墙人体动作识别网络（Skeleton-Guided Completion Network），融合雷达与摄像头多模态信息，实现多人及遮挡场景下的高鲁棒动作识别；  
+<br>• 职责：设计DBSCAN–GMM自适应多人分割算法以分离雷达点云目标，构建基于LAKe-Net的骨架感知点云补全模块，实现穿墙稀疏点云的拓扑一致重建；  
+<br>• 成果：搭建基于Transformer的实时动作识别原型系统，预计发表IEEE Trans期刊一篇。
+
+
 - 国家级本科生创新创业训练计划,王武教授指导（研究经费20000元）,2023.06 - 2024.06
 <br>**基于视觉巡检的自平衡独轮机器人研制**
 <br>• 描述：基于现实工业生产环境，研制能够适应复杂地形，进行视觉巡检的独轮机器人
@@ -46,7 +53,7 @@ title: Research-zh
 <br>**水下鱼类智能检测与监控系统**
 <br>• 描述：提升YOLO目标检测算法在水下生物领域的应用，对检测数据进行可视化分析
 <br>• 职责：搭建客户端云平台将以及小程序APP，实现数据进行可视化分析及分析结果实时查询
-<br>• 成果：项目被评定为省级项目，完成最终结题报告，预计产出国际会议论文一篇
+<br>• 成果：项目被评定为省级项目，完成最终结题报告，产出国际会议论文一篇
 
 - 嵌入式系统及机电一体化科研，Micheal（普林斯顿大学系主任）指导,2023.05 - 2023.07
 <br>**微控制器在智能体设计及3D打印等数字制造的应用研究**

@@ -4,7 +4,7 @@ permalink: /research/index.html
 title: research
 ---
 
-> Lastest Update: 9th Sep 2024 &nbsp; [中文版本 (Chinese Version)](https://jiachenghuang.com/file/research-zh/)
+> Lastest Update: 7th Nov 2025 &nbsp; [中文版本 (Chinese Version)](https://jiachenghuang.com/file/research-zh/)
 
 ## Internship Experience
 
@@ -46,6 +46,18 @@ Applied the designed product in industrial production, with plans to apply for o
 ---
 
 ## Research Projects
+
+- **Through-Wall Multi-Person Action Sensing Based on mmWave Radar (SkelCN-HAR)**(Oct 2025–Present)  
+<br>Delta–NTU Corporate Laboratory, Nanyang Technological University, Singapore  
+<br>Supervisor: Prof. Khong Wai Hoong, Nanyang Technological University  
+<br>• **Outline**:  
+Developed a skeleton-guided completion network for radar-based through-wall human action recognition, integrating mmWave radar and camera modalities to enhance sensing performance in occluded and multi-person scenarios;  
+<br>• **Responsibilities**:  
+Designed a DBSCAN–GMM adaptive multi-human segmentation algorithm for radar point clouds, implemented a skeleton-aware LAKe-Net for topology-consistent point cloud completion, and constructed a radar–camera dataset for multi-human through-wall sensing;  
+<br>• **Achievement**:  
+Built a prototype real-time human activity recognition framework using Transformer architecture, contributing to privacy-preserving sensing applications in industrial safety and smart environments.
+
+
 
 - **Development of a Self-balancing Unicycle Robot Based on Visual Inspection**(Jun 2023-present)
 <br>National Undergraduate Innovation and Entrepreneurship Training Programme
