@@ -24,9 +24,9 @@ Here is **Jiacheng Huang (Kano,黄家成)**.
 </style>
 
 <div class="justify-text">
-    Welcome to my academic homepage! I am a final-year undergrad majoring in EE at Fuzhou University and Maynooth University (Combined Degrees). At present, I am working as a research assistant at the Institute of Electrical Power Systems and Equipment, under the supervision of Prof.Jiang Hao and Dr.Yin Cunyi.
+    Welcome to my academic homepage! I received the B.Eng. degree in electronic engineering from Fuzhou University’s Maynooth International Engineering College, Fuzhou, China, in 2025. In the latter half of 2025, I commenced pursuing the M.Sc. degree in electronics with the School of Electrical and Electronic Engineering, Nanyang Technological University (NTU), Singapore.
     <br><br>
-    I am currently seeking opportunities to pursue a Master's degree. If you are interested in any aspect of me, I would love to chat and collaborate, please email me at - jiacheng.huang@ieee.org
+    My research interests encompass industrial Internet of Things, wireless sensing, applied machine learning, and related domains. I am currently with the Delta-NTU Corporate Lab for Cyber-Physical Systems, Nanyang Technological University, and my present research focuses on millimeter-wave radar and human activity recognition (HAR). If you are interested in any aspect of my work or potential collaboration, please feel free to reach out via email at jiacheng008@e.ntu.edu.sg.
 </div>
 
 ---
@@ -57,7 +57,7 @@ My current research is focused on addressing the real-world challenges encounter
     <li>Dec 2023: (award)Received the Fuzhou University Individual Award.</li>
     <li>Dec 2023: (paper)Our paper on Unicycle Robot accepted by <strong>MEAI 2023</strong>.</li>
     <li>Dec 2023: (award)Received <strong>Second Prize</strong> in Fuzhou University College Students Entrepreneurship Plan Competition.</li>
-    <li>Dec 2013: (award)Received <strong><font color='red'>First Prize and Best Technical Innovation Award</font></strong> in Cross-Strait Information Service Innovation Competition and Computer Software Design Competition.</li>
+<!--     <li>Dec 2013: (award)Received <strong><font color='red'>First Prize and Best Technical Innovation Award</font></strong> in Cross-Strait Information Service Innovation Competition and Computer Software Design Competition.</li>
     <li>Dec 2023: (award)Received <strong>International Bronze Award</strong> in China International "Internet Plus" College Students Innovation and Entrepreneurship Competition.</li>
     <li>Nov 2023: (paper)Our paper on Automatic Pricing accepted by <strong>IEECT 2023</strong>.</li>
     <li>Nov 2023: (activity)Became a research assistant at the Power System and Equipment Industry Research Institute under the guidance of Prof. <strong>Jiang Hao</strong>.</li>
@@ -67,7 +67,7 @@ My current research is focused on addressing the real-world challenges encounter
     <li>Jul 2023: (award)Received <strong>Outstanding Award</strong> in National College Students Intelligent Car Competition South China Region.</li>
     <li>Jun 2023: (activity)Our project on Unicycle Robot is rated as a national project.</li>
     <li>Mar 2023: (award)Received the Fuzhou University Comprehensive Third-Class Scholarship.</li>
-    <li>Mar 2022: (award)Received the Fuzhou University Comprehensive Second-Class Scholarship.</li>
+    <li>Mar 2022: (award)Received the Fuzhou University Comprehensive Second-Class Scholarship.</li> -->
 
 </ul>
 
