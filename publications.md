@@ -4,7 +4,7 @@ permalink: /publications/index.html
 title: Publications
 ---
 
-> Lastest Update: 9th Sep 2024
+> Lastest Update: 9th Sep 2024 &nbsp; [中文版本 (Chinese Version)](https://jiachenghuang.com/file/publication-zh/)
 
 ## Journal Paper
 
