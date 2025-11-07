@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/index.html
-title: 学术成果
+title: publications-zh
 ---
 
 > 最后更新：2024年9月9日
