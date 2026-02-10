@@ -35,7 +35,7 @@ title: awards
 - Aug 2023: The 9th 3S Cup College Students Internet of Things Technology and Application "Three Creation" Competition **National Second Prize**
 - Aug 2023: The 16th National College Students Electronic Design Competition Fujian Division **Third Prize**
 - Jul 2023: The 18th National College Students Intelligent Car Competition South China Region **Outstanding Award**
-- Feb 2023: The 25th International Mathematical Contest for University Students **S Award**
+
 
 ## Services
 

@@ -8,7 +8,7 @@ title: research
 
 ## Internship Experience
 
-- **Imperial Vision Technology/Power System and Equipment Industry Research Institute**(Jan 2023 - present)
+- **Imperial Vision Technology/Power System and Equipment Industry Research Institute**(Jan 2023 - Jun 2025)
 <br>mmPowerHAR: A Framework Using mmRadar for Human Activity Recognition in Power Station
 <br>Research Assistant (supervised by Prof. Jiang Hao, Fuzhou University and Prof. Chen Zhenghua, Nanyang Technological University) 
 <br>• **Outline**:  

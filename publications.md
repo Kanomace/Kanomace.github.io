@@ -8,13 +8,13 @@ title: publications
 
 ## Journal Paper
 
-- [LEET: stock market forecast with long-term emotional change enhanced temporal model](https://doi.org/10.7717/peerj-cs.1969)
+- [LEET: Stock Market Forecast with Long-term Emotional Change Enhanced Temporal Model](https://doi.org/10.7717/peerj-cs.1969)
 <br> Honglin Liao, **Jiacheng Huang** , Yong Tang
 <br> *PeerJ Computer Science, 2024*.(JCR, Q1).
 
-- mmPowerHAR: A Framework Using mmRadar for Human Activity Recognition in Power Station 
-<br> **Jiacheng Huang**, Honglin Liao, Hanlin Cai, Cunyi Yin, Hao Jiang
-<br> Submitted to *IEEE Transactions on Network Science and Engineering, 2024* (Under Review).
+- RoPEHAR: A Real-Time Rotary Position Encoding Informer for mmWave-Based Human Activity Recognition in Substations
+<br> **Jiacheng Huang**, Honglin Liao, Hanlin Cai, Cunyi Yin, Hao Jiang, Zhaoke Huang, Zhiwen Chen
+<br> Submitted to *IEEE Transactions on IEEE Internet of Things Journal, 2025* (Under Revision).
 
 ## Conference Paper
 
