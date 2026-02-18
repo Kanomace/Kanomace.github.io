@@ -4,7 +4,7 @@ permalink: /file/publication-zh/index.html
 title: publications-zh
 ---
 
-> Lastest Update: 7th Nov 2025 &nbsp; [English Version (英文)](https://jiachenghuang.com/awards/)
+> Lastest Update: 7th Nov 2025 &nbsp; [English Version (英文)](https://jiachenghuang.com/publications/)
 
 ## 期刊论文
 
@@ -12,9 +12,9 @@ title: publications-zh
 <br> 廖泓霖, **黄家成** , 唐勇
 <br> *PeerJ Computer Science, 2024*.(JCR, Q1).
 
-- mmPowerHAR: 基于毫米波雷达的电力站人体活动识别框架
-<br> **黄家成**, 廖泓霖, 蔡翰林, 尹存义, 蒋浩
-<br> 已投稿至 *IEEE Transactions on Network Science and Engineering, 2024* (审稿中).
+- RoPEHAR：一种用于变电站毫米波人体活动识别的实时旋转位置编码信息器
+<br> **黄家成**, 廖泓霖, 蔡翰林, 尹存义, 江灏，陈静， 方赵柯， 陈志文 
+<br> 已投稿至 *IEEE Transactions on IEEE Internet of Things Journal, 2025* (修订中).
 
 ## 会议论文
 
