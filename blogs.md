@@ -4,9 +4,14 @@ permalink: /blogs/index.html
 title: Blogs
 ---
 
-> Lastest Update: 9th Sep 2024
+> Lastest Update: 16th May 2026
 
 ## Chinese Blogs
+
+### 2025
+
+- [嵌入式开发平台横向对比 — Arduino · STM32 · ESP32 · TC264](https://jiachenghuang.com//blogs/embedded)<br>
+- [NTU EE7207 神经网络与深度学习课程总结](https://jiachenghuang.com//blogs/ee7207)<br>
 
 ### 2024
 
