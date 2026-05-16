@@ -10,7 +10,7 @@ title: publications
 
 - [LEET: Stock Market Forecast with Long-term Emotional Change Enhanced Temporal Model](https://doi.org/10.7717/peerj-cs.1969)
 <br> Honglin Liao, **Jiacheng Huang** , Yong Tang
-<br> *PeerJ Computer Science, 2024*.(JCR, Q1).
+<br> *PeerJ Computer Science, 2024*.(JCR, Q3).
 
 - RoPEHAR: A Real-Time Rotary Position Encoding Informer for mmWave-Based Human Activity Recognition in Substations
 <br> **Jiacheng Huang**, Honglin Liao, Hanlin Cai, Cunyi Yin, Hao Jiang, Zhaoke Huang, Zhiwen Chen

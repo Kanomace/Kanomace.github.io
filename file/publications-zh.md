@@ -10,7 +10,7 @@ title: publications-zh
 
 - [LEET: 基于长期情绪变化增强时序模型的股票市场预测](https://doi.org/10.7717/peerj-cs.1969)
 <br> 廖泓霖, **黄家成** , 唐勇
-<br> *PeerJ Computer Science, 2024*.(JCR, Q1).
+<br> *PeerJ Computer Science, 2024*.(JCR, Q3).
 
 - RoPEHAR：一种用于变电站毫米波人体活动识别的实时旋转位置编码信息器
 <br> **黄家成**, 廖泓霖, 蔡翰林, 尹存义, 江灏，陈静， 方赵柯， 陈志文 

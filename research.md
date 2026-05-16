@@ -4,96 +4,85 @@ permalink: /research/index.html
 title: research
 ---
 
-> Lastest Update: 7th Nov 2025 &nbsp; [中文版本 (Chinese Version)](https://jiachenghuang.com/file/research-zh/)
+> Lastest Update: 16th May 2026 &nbsp; [中文版本 (Chinese Version)](https://jiachenghuang.com/file/research-zh/)
 
 ## Internship Experience
 
-- **Imperial Vision Technology/Power System and Equipment Industry Research Institute**(Jan 2023 - Jun 2025)
-<br>mmPowerHAR: A Framework Using mmRadar for Human Activity Recognition in Power Station
-<br>Research Assistant (supervised by Prof. Jiang Hao, Fuzhou University and Prof. Chen Zhenghua, Nanyang Technological University) 
-<br>• **Outline**:  
-Based on the situations at the power distribution station, using mmWave radar evaluation boards to realise the determination of 
-personnel posture and trajectory tracking; 
-<br>• **Responsibilities**:  
-Implemented real-time data collection using TI’s mmWave radar, developed deep learning algorithms and achieved human pose 
-classification; 
-<br>• **Achievement**:  
-Authored a research paper and submitted to IEEE Transactions on Network Science and Engineering. 
-
-- **Xiamen Fanshi Intelligent Technology Co., Ltd.**(May 2024 - Aug 2024)
+- **Xiamen Fanshi Intelligent Technology Co., Ltd.**(Jun 2023 - Feb 2024)
 <br>Development of an Indoor Positioning Miniature UAV for Industrial Site Inspection
-<br>Embedded Software Engineer (supervised by Prof. Jiang Hao, Fuzhou University) 
+<br>Embedded Software Engineer
 <br>• **Outline**:  
-Developed a miniature UAV capable of indoor positioning to automate inspections in industrial settings; 
+Developed a miniature UAV system capable of centimetre-level indoor positioning in GPS-denied environments, integrating UWB and AprilTag visual positioning to enable autonomous inspection in industrial facilities;
 <br>• **Responsibilities**:  
-Tested UAV hardware circuit boards, implemented Mavlink UAV communication, developed indoor inspection algorithms, and 
-designed upper computer software systems; 
+Conducted hardware signal integrity verification and communication protocol development for a custom ESP32 controller based on the APM flight control system; developed machine vision positioning; implemented MAVLink communication and task management; wrote the ground-station Python inspection scheduling system;
 <br>• **Achievement**:  
-The drone prototype was successfully realized and showcased in Fuzhou Innovation Park. 
+The drone prototype was successfully realised and showcased in Fuzhou Innovation Park.
 
-- **Fujian Qipu Xinchuang Technology Co., Ltd.**(June 2023 - Aug 2023) 
-<br>Development of an Intelligent Mining Ventilation Door Control System
-<br>Embedded Engineer (supervised by Prof.Li Binglei, Fuzhou University)
+- **Fuzhou Shuofeng Technology Co., Ltd.**(Jul 2023 - Aug 2023)
+<br>Development of an Intelligent Mining Ventilation Door Remote Control System
+<br>Embedded Software Engineer
 <br>• **Outline**:  
-Addressed the challenge of remote ventilation door control in mining environments by designing a fast door motor 
-communication control system using ESP32; 
+Addressed the challenge of remote ventilation door control in safety-critical mining environments by designing a remote control system integrating an ESP32 communication board and fast door motor, enabling door interlock, status monitoring, and fault alerting via cloud connectivity;
 <br>• **Responsibilities**:  
-Designed communication circuit boards using Altium Designer, customized MQTT communication protocols, and developed 
-software application systems; 
+Designed and debugged the ESP32-based remote control board using Altium Designer; developed a customised MQTT communication protocol; built real-time monitoring and O&M software; completed integration testing and reliability validation in a mining environment;
 <br>• **Achievement**:  
-Applied the designed product in industrial production, with plans to apply for one patent. 
+Applied the designed product in industrial production.
+
+- **Imperial Vision Technology Co., Ltd. / Power System and Equipment Industry Research Institute**(Feb 2024 - Jun 2024)
+<br>mmWave Radar-Based Non-Contact Human Activity Sensing in Substations
+<br>Radar Algorithm Engineer (supervised by Prof. Jiang Hao, Fuzhou University)
+<br>• **Outline**:  
+Developed a non-contact human sensing system based on mmWave radar for power substation safety monitoring, using the IWR1843 evaluation board to detect personnel posture in complex electromagnetic environments to prevent electrical accidents;
+<br>• **Responsibilities**:  
+Developed radar signal processing algorithms and deep learning models; proposed a hybrid denoising pipeline combining SNR thresholding and DBSCAN clustering; optimised the Informer classification algorithm specifically for mmWave radar point clouds to achieve high-accuracy personnel activity detection in substation scenarios;
+<br>• **Achievement**:  
+Authored a research paper accepted by *IEEE Internet of Things Journal* (JCR, Q1), 2026.
 
 ---
 
 ## Research Projects
 
-- **Through-Wall Multi-Person Action Sensing Based on mmWave Radar (SkelCN-HAR)**(Oct 2025–Present)  
-<br>Delta–NTU Corporate Laboratory, Nanyang Technological University, Singapore  
-<br>Supervisor: Prof. Khong Wai Hoong, Nanyang Technological University  
+- **AuraSense: Privacy-Preserving mmWave-Based Human Sensing System**(Aug 2025–Present)
+<br>Delta–NTU Corporate Laboratory, Nanyang Technological University, Singapore
+<br>Supervisor: Assoc. Prof. Khong Wai Hoong Andy, Nanyang Technological University
 <br>• **Outline**:  
-Developed a skeleton-guided completion network for radar-based through-wall human action recognition, integrating mmWave radar and camera modalities to enhance sensing performance in occluded and multi-person scenarios;  
+Developing AuraSense, a privacy-preserving human sensing system based on mmWave radar for non-contact vital sign monitoring (heart rate, respiration rate, blood pressure) and real-time activity recognition, targeting elderly care, hospital wards, and smart city emergency response;
 <br>• **Responsibilities**:  
-Designed a DBSCAN–GMM adaptive multi-human segmentation algorithm for radar point clouds, implemented a skeleton-aware LAKe-Net for topology-consistent point cloud completion, and constructed a radar–camera dataset for multi-human through-wall sensing;  
+Developing deep learning algorithms for multi-task radar signal processing, building an end-to-end inference pipeline from raw point cloud to activity classification; designing a real-time visualisation interface and clinical alerting module; leading system integration and hardware platform deployment and debugging, completing real-scene real-time demonstration;
 <br>• **Achievement**:  
-Built a prototype real-time human activity recognition framework using Transformer architecture, contributing to privacy-preserving sensing applications in industrial safety and smart environments.
+Selected for NRF's national-level **GRIP Deep Tech Startup Programme**; selected for NTU <strong><font color='red'>Chua Thian Poh Pinnacle Prize</font></strong>; deployed MVP pilot at Tan Tock Seng Hospital; related paper submitted to NeurIPS 2026.
 
 
-
-- **Development of a Self-balancing Unicycle Robot Based on Visual Inspection**(Jun 2023-present)
+- **Development of a Self-balancing Unicycle Robot Based on Visual Inspection**(Jun 2023 - Jun 2025)
 <br>National Undergraduate Innovation and Entrepreneurship Training Programme
 <br>Supervisor: Prof. Wang Wu, Fuzhou University 
 <br>• **Outline**:  
-Developed a unicycle robot capable of adapting to complex terrain and conducting visual inspections in realistic                
-industrial production environments; 
+Developed a unicycle robot capable of adapting to complex terrain and conducting visual inspections in industrial production environments based on Infineon TC264, using cascade PID control and state estimation for dynamic stable balance;
 <br>• **Responsibilities**:  
-Utilised Altium Designer for circuit design, conducted dynamic modelling of the -unicycle robot, and developed machine vision 
-in the field of robotics; 
+Utilised Altium Designer for PCB design and robot housing layout; conducted dynamic modelling of the dual-helical structure; developed machine vision localisation based on AprilTag to achieve visual-control integration;
 <br>• **Achievement**:  
-Secured a research grant over $3000; Authored a international conference paper and a software copyright. 
+Secured a national-level research grant (¥20,000); authored an international conference paper; registered a software copyright.
 
-- **Intelligent Detection and Monitoring System for Underwater Fish**(Jun 2023-Jun 2024) 
+- **Intelligent Detection and Monitoring System for Underwater Fish**(Jun 2023 - Jun 2024) 
 <br>Provincial Undergraduate Innovation and Entrepreneurship Training Programme
 <br>Supervisor: Prof. Chen Weiling, Fuzhou University 
 <br>• **Outline**:  
-Elevated the application of the YOLO object detection algorithm in the field of underwater biology and visualized the analysis 
-of detection data; 
+Applied the YOLO object detection algorithm to underwater biology, enabling visualised analysis of detection data;
 <br>• **Responsibilities**:  
-Established a client cloud platform and a mini-program app to analyse and provide real-time querying of detection information 
-visually; 
+Established a client cloud platform and mini-programme app to support real-time querying and visualised analysis of detection results;
 <br>• **Achievement**: 
-Secured a research grant over $1500; Completed the final project completion report. 
+Secured a provincial-level research grant (¥10,000); completed the final project report.
 
-- **Application of Microcontrollers to the Design of Intelligent Bodies and Digital Manufacturing such as 3D Printing**(May 2023-Jul 2023) 
-<br>Supervisor: Prof. Michael Littman, MAE Departmental Representative and Director of Undergraduate Studies, School of Engineering 
-and Applied Science, Princeton University 
+- **Application of Microcontrollers to Digital Manufacturing Design such as 3D Printing**(May 2023 - Jul 2023) 
+<br>Summer Research Programme, School of Engineering and Applied Science, Princeton University
+<br>Supervisor: Prof. Michael Littman, Princeton University
 <br>• **Outline**:  
-Explored the analysis of the PD controller-based DC motor control model in the field of 3D Printing and conducted research on 
-its applications; 
+Investigated DC motor dynamics and PD controller-based control strategies for high-precision execution in 3D printing and digital manufacturing, building a thermal-electrical-mechanical integrated real-time feedback architecture;
 <br>• **Responsibilities**:  
-Analysed the micro-electromechanical systems of digital control circuits using Falstad and Tinkercad based on mechanical 
-automation feedback; 
+Conducted circuit-level simulation of motor drive and sensing links using Falstad and Tinkercad; built discretised dynamic models of motors and actuators; implemented closed-loop control and hardware-in-the-loop simulation on Arduino;
 <br>• **Achievement**:  
-Authored a international conference paper and received a recommendation letter from the supervisor.
+Received a recommendation letter from the supervisor.
+
 ---
 
 <br>Under Construction
