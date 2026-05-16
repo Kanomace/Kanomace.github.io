@@ -4,7 +4,7 @@ permalink: /awards/index.html
 title: awards
 ---
 
-> Lastest Update: 6th Sep 2024 &nbsp; [中文版本 (Chinese Version)](https://jiachenghuang.com/file/awards-zh/)
+> Lastest Update: 16th May 2026 &nbsp; [中文版本 (Chinese Version)](https://jiachenghuang.com/file/awards-zh/)
 
 ## Scholarships
 
@@ -27,6 +27,7 @@ title: awards
 
 ## Competitions
 
+- 2026: Selected for <strong><font color='red'>Chua Thian Poh Pinnacle Prize</font></strong>, Nanyang Technological University National Innovation and Entrepreneurship Competition
 - Feb 2024: The 26th International Mathematical Contest for University Students **H Award**
 - Dec 2023: The 13th Cross-Strait Information Service Innovation Competition and the 17th Fujian Province Computer Software Design Competition <strong><font color='red'>First Prize and Best Technical Innovation Award</font></strong>
 - Dec 2023: The 9th China International "Internet Plus" College Students Innovation and Entrepreneurship Competition **International Bronze Award**

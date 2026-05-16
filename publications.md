@@ -4,7 +4,7 @@ permalink: /publications/index.html
 title: publications
 ---
 
-> Lastest Update: 7th Nov 2025 &nbsp; [中文版本 (Chinese Version)](https://jiachenghuang.com/file/publication-zh/)
+> Lastest Update: 16th May 2026 &nbsp; [中文版本 (Chinese Version)](https://jiachenghuang.com/file/publication-zh/)
 
 ## Journal Paper
 
@@ -14,7 +14,7 @@ title: publications
 
 - RoPEHAR: A Real-Time Rotary Position Encoding Informer for mmWave-Based Human Activity Recognition in Substations
 <br> **Jiacheng Huang**, Honglin Liao, Hanlin Cai, Cunyi Yin, Hao Jiang, Zhaoke Huang, Zhiwen Chen
-<br> Submitted to *IEEE Transactions on IEEE Internet of Things Journal, 2025* (Under Revision).
+<br> *IEEE Internet of Things Journal, 2026*. (JCR, Q1).
 
 ## Conference Paper
 

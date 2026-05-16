@@ -4,7 +4,7 @@ permalink: /file/publication-zh/index.html
 title: publications-zh
 ---
 
-> Lastest Update: 7th Nov 2025 &nbsp; [English Version (英文)](https://jiachenghuang.com/publications/)
+> Lastest Update: 16th May 2026 &nbsp; [English Version (英文)](https://jiachenghuang.com/publications/)
 
 ## 期刊论文
 
@@ -14,7 +14,7 @@ title: publications-zh
 
 - RoPEHAR：一种用于变电站毫米波人体活动识别的实时旋转位置编码信息器
 <br> **黄家成**, 廖泓霖, 蔡翰林, 尹存义, 江灏，陈静， 方赵柯， 陈志文 
-<br> 已投稿至 *IEEE Transactions on IEEE Internet of Things Journal, 2025* (修订中).
+<br> *IEEE Internet of Things Journal, 2026*。（JCR, Q1）.
 
 ## 会议论文
 

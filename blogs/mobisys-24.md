@@ -6,14 +6,15 @@ title: mobisys-24
 
 ## Mobisys/KDD 本科生参会记录
 
-> Lastest Update: 9th Sep 2024
+> Lastest Update: 16th May 2026
 
-近期在网上看到某大牛给底下研究生and博士生的参会手册。其中“不要和大牛抢蛋糕”戳中了我的笑点，也启发了这篇随笔，本意是想记录一些作为一个本科生是如何在高校博士and大牛遍布的知名国际会议中~~抢茶歇~~自信交流的经验
+近期在网上看到某大牛给底下研究生and博士生的参会手册。其中"不要和大牛抢蛋糕"戳中了我的笑点，也启发了这篇随笔，本意是想记录一些作为一个本科生是如何在高校博士and大牛遍布的知名国际会议中~~抢茶歇~~自信交流的经验
 
 > 非常感谢蔡汉霖学长和方宇辰学长在论文写作和参会经验的指导,他们在我的本科生涯帮助了我很多，预祝他们在剑桥和布里斯托的学业顺利~
 
 ---
 
+## MobiSys 2024 · 东京
 
 #### TimeLine
 
@@ -21,7 +22,7 @@ title: mobisys-24
 
 1. 下载klook（购买景区门票，定酒店等）和Google Map（导航）
 2. 机场购买suica西瓜卡or东京地铁乘车卷（无限次搭乘3日¥69）
-3. 预订酒店*APA Hotel PRIDE Akasaka Kokkaigijidomae* 2~6日（$75 per night）、
+3. 预订酒店*APA Hotel PRIDE Akasaka Kokkaigijidomae* 2~6日（$75 per night）
 
 ## Plan~📅
 
@@ -31,27 +32,34 @@ title: mobisys-24
 - 12:00，到达福州长乐机场
 - 13:25~15:05，福州长乐机场~上海浦东机场
 - 16:55~20:55，上海浦东机场~成田国际机场
-- 10:00，乘坐Skyline高铁直达东京市区
+- 21:00，乘坐Skyline高铁直达东京市区
+
+<center>
+<img src="/blogs/mobisys-24.assets/IMG_20240602_233537.jpg" width="60%">
+</center>
 
 ### Day2，6月3日
 
 1. 参与主会议，听大佬演讲
 
-
 <center>
-<img src = "/blogs/mobisys-24.assets/IMG_20240603_102231.jpg">
+<img src="/blogs/mobisys-24.assets/IMG_20240603_102231.jpg" width="60%">
 </center>
 
-1. 秋叶原电器街，浅草寺
-
 <center>
-<img src="/blogs/mobisys-24.assets/IMG_20240603_143627.jpg">
+<img src="/blogs/mobisys-24.assets/IMG_20240603_102301.jpg" width="60%">
 </center>
 
-1. 东京旅游官方为会议人员提供免费夜间巴士旅游，需要会议期间预订（东京天空树&东京晴空街道）
+2. 秋叶原电器街，浅草寺
 
 <center>
-<img src="/blogs/mobisys-24.assets/IMG_20240603_191514.jpg">
+<img src="/blogs/mobisys-24.assets/IMG_20240603_143627.jpg" width="60%">
+</center>
+
+3. 东京旅游官方为会议人员提供免费夜间巴士旅游，需要会议期间预订（东京天空树&东京晴空街道）
+
+<center>
+<img src="/blogs/mobisys-24.assets/IMG_20240603_191514.jpg" width="60%">
 </center>
 
 
@@ -64,11 +72,15 @@ title: mobisys-24
 可以随时到他人的项目面前了解他们的工作，也可以向他们介绍自己的项目（PS：茶歇还不错~）
 
 <center>
-<img src="/blogs/mobisys-24.assets/IMG_20240604_185743.jpg">
+<img src="/blogs/mobisys-24.assets/IMG_20240604_185743.jpg" width="60%">
 </center>
 
 <center>
-<img src="/blogs/mobisys-24.assets/IMG_20240604_180318.jpg">
+<img src="/blogs/mobisys-24.assets/IMG_20240604_180318.jpg" width="60%">
+</center>
+
+<center>
+<img src="/blogs/mobisys-24.assets/IMG_20240604_181636.jpg" width="60%">
 </center>
 
 
@@ -82,40 +94,88 @@ title: mobisys-24
 会议期间还有日本能剧表演，日本学生说是从中国传进来的（有点惊讶）
 
 <center>
-<img src="/blogs/mobisys-24.assets/IMG_20240605_183504.jpg">
+<img src="/blogs/mobisys-24.assets/IMG_20240605_183504.jpg" width="60%">
 </center>
+
+<center>
+<img src="/blogs/mobisys-24.assets/IMG_20240605_183254_2.jpg" width="60%">
+</center>
+
 
 ### Day5，6月6日
 
 1. 驻地场外市场（美食集市）
 2. 银座（逛街but很贵）
 3. 六本木展望台（看日落东京塔）
-1. 涩谷sky（俯视东京全景，傍晚风景好，门票¥100，but前面好像看过很多观景台了😵）
-2. 原宿
-3. 明治神宫（鸟居，城市公园）
-4. 新宿御苑（吃喝玩乐）
-5. ~~歌舞伎町~~
+4. 涩谷sky（俯视东京全景，傍晚风景好，门票¥100）
+5. 原宿
+6. 明治神宫（鸟居，城市公园）
+7. 新宿御苑（吃喝玩乐）
+
+<center>
+<img src="/blogs/mobisys-24.assets/IMG_20240606_112701.jpg" width="60%">
+</center>
+
+<center>
+<img src="/blogs/mobisys-24.assets/IMG_20240606_140543.jpg" width="60%">
+</center>
+
+<center>
+<img src="/blogs/mobisys-24.assets/IMG_20240606_192950.jpg" width="60%">
+</center>
+
 
 ### Day6，6月7日
 
-PS:*也可以考虑去别的地方，镰仓，京都等*
-
 **需在富士山能见度平台了解天气**
+
+PS: *也可以考虑去别的地方，镰仓，京都等*
+
 1. 富士山河口湖一日游（报一日旅游团每人¥300+）
 2. 浅间公园
 3. 日川计时店（天梯小镇+富士山）
 4. 河口湖大石公园（富士山全景）
 5. 八崎木公园
 
+<center>
+<img src="/blogs/mobisys-24.assets/IMG_20240607_091539.jpg" width="60%">
+</center>
 
-### Day8，6月8日
+<center>
+<img src="/blogs/mobisys-24.assets/IMG_20240607_094938.jpg" width="60%">
+</center>
+
+
+### Day7，6月8日
 
 还有半天的时间游玩，动态调整吧~
 
-1. 16:55~19:15，成田国际机场~上海浦东机场 
+1. 16:55~19:15，成田国际机场~上海浦东机场
 2. 21:15~22:55，上海浦东机场~福州长乐机场
 
 <br>
 
-----
+---
 
+## KDD 2024 · 巴塞罗那
+
+> 2024年8月，西班牙巴塞罗那，ACM SIGKDD 2024 Undergraduate Consortium
+
+## Tips✏️
+
+1. 下载Google Map导航，巴塞罗那地铁+公交覆盖全市
+2. 建议购买T-Casual 10次地铁票（约€12，可与同行人共用）
+3. 注意防扒窃，尤其是拉斯兰布拉斯大道（La Rambla）等旅游区
+4. 提前在官网预约圣家堂（Sagrada Família），现场无票
+
+## 参会心得
+
+KDD 2024 的 Undergraduate Consortium 为本科生提供了展示研究、与顶级学者交流的机会。作为第一次参加 CCF-A 类顶会的本科生，整个过程受益匪浅——
+
+- **论文展示**：会场汇聚了来自数据挖掘、机器学习、AI4Science等方向的最前沿工作，能与作者面对面交流是非常难得的机会
+- **跨领域碰撞**：KDD相比MobiSys规模更大，议题更广，遇到了很多工业界（Google、Meta等）的研究者
+- **城市体验**：巴塞罗那的建筑（高迪、圣家堂）和美食（Tapas、海鲜饭）都极具特色，会议间隙的城市探索体验感很好
+
+<br>
+
+----

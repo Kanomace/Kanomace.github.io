@@ -4,7 +4,7 @@ permalink: /file/awards-zh/index.html
 title: awards-zh
 ---
 
-> Lastest Update: 7th Nov 2025 &nbsp; [English Version (英文)](https://jiachenghuang.com/awards/)
+> Lastest Update: 16th May 2026 &nbsp; [English Version (英文)](https://jiachenghuang.com/awards/)
 
 ## 综合奖学金
 
@@ -26,6 +26,7 @@ title: awards-zh
 
 ## 科研竞赛
 
+- 2026年：入选南洋理工大学**<font color='red'>蔡天宝巅峰奖</font>**国家级创新创业大赛
 - 2024年02月：第26届国际大学生数学建模竞赛**H奖**
 - 2023年12月：第13届海峡两岸信息服务创新大赛暨福建省第十七届计算机软件设计大赛**一等奖兼最佳技术创新奖**
 - 2023年12月：第9届中国国际“互联网+”大学生创新创业大赛**国际铜奖**
