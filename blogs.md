@@ -4,9 +4,13 @@ permalink: /blogs/index.html
 title: Blogs
 ---
 
-> Lastest Update: 16th May 2026
+> Lastest Update: 11th Aug 2026
 
 ## Chinese Blogs
+
+### 2026
+
+- [NeurIPS 2026 投稿初体验](https://jiachenghuang.com/blogs/neurips-26)<br>
 
 ### 2025
 
