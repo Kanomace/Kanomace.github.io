@@ -12,7 +12,7 @@ title: publications
 <br> Honglin Liao, **Jiacheng Huang** , Yong Tang
 <br> *PeerJ Computer Science, 2024*.(JCR, Q3).
 
-- RoPEHAR: A Real-Time Rotary Position Encoding Informer for mmWave-Based Human Activity Recognition in Substations
+- [RoPEHAR: A Real-Time Rotary Position Encoding Informer for mmWave-Based Human Activity Recognition in Substations](https://doi.org/10.1109/JIOT.2026.3685678)
 <br> **Jiacheng Huang**, Honglin Liao, Hanlin Cai, Cunyi Yin, Hao Jiang, Zhaoke Huang, Zhiwen Chen
 <br> *IEEE Internet of Things Journal, 2026*. (JCR, Q1).
 
