@@ -15,6 +15,7 @@ title: Blogs
 
 ### 2025
 
+- [室内定位实践｜UWB 与视觉融合无人机](https://jiachenghuang.com/blogs/indoor-uav)<br>
 - [嵌入式开发平台横向对比 — Arduino · STM32 · ESP32 · TC264](https://jiachenghuang.com//blogs/embedded)<br>
 - [NTU EE7207 神经网络与深度学习课程总结](https://jiachenghuang.com//blogs/ee7207)<br>
 
