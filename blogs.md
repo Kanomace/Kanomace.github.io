@@ -4,12 +4,13 @@ permalink: /blogs/index.html
 title: Blogs
 ---
 
-> Lastest Update: 11th Aug 2026
+> Lastest Update: 12th Aug 2026
 
 ## Chinese Blogs
 
 ### 2026
 
+- [无线感知实践｜毫米波雷达实时 HAR](https://jiachenghuang.com/blogs/wireless-har)<br>
 - [NeurIPS 2026 投稿初体验](https://jiachenghuang.com/blogs/neurips-26)<br>
 
 ### 2025
