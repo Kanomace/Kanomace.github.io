@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /blogs/miot/index.html
-title: 无线感知实践｜WiFi CSI 联动米家智能灯
+title: 小米 IoT｜CSI 人体存在感知
 ---
 
-## 无线感知实践｜WiFi CSI 联动米家智能灯
+## 小米 IoT｜CSI 人体存在感知
 
 > 最后更新：2023年
 
