@@ -26,7 +26,7 @@ Here is **Jiacheng Huang (Kano,黄家成)**.
 <div class="justify-text">
     Welcome to my academic homepage! I received the B.Eng. degree in electronic engineering from Fuzhou University’s Maynooth International Engineering College, Fuzhou, China, in 2025. In the latter half of 2025, I commenced pursuing the M.Sc. degree in electronics with the School of Electrical and Electronic Engineering, Nanyang Technological University (NTU), Singapore.
     <br><br>
-    My research interests encompass industrial Internet of Things, wireless sensing, applied machine learning, and related domains. I am currently with the Delta-NTU Corporate Lab for Cyber-Physical Systems, Nanyang Technological University, and my present research focuses on millimeter-wave radar and human activity recognition (HAR). If you are interested in any aspect of my work or potential collaboration, please feel free to reach out via email at jiacheng008@e.ntu.edu.sg.
+    My research interests encompass industrial Internet of Things, wireless sensing, applied machine learning, and related domains. I am currently with the Delta-NTU Corporate Lab for Cyber-Physical Systems, Nanyang Technological University, and my present research focuses on wireless human sensing and smart healthcare. If you are interested in any aspect of my work or potential collaboration, please feel free to reach out via email at jiacheng008@e.ntu.edu.sg.
 </div>
 
 ---
@@ -48,6 +48,7 @@ My current research is focused on addressing the real-world challenges encounter
 ## News and Updates
 
 <ul class="timeline">
+    <li>Jun 2026: (award)Selected for the <strong><font color='red'>Chua Thian Poh Pinnacle Prize</font></strong> at Nanyang Technological University.</li>
     <li>May 2026: (paper)Our paper RoPEHAR has been accepted by <strong><font color='red'>IEEE Internet of Things Journal</font></strong> (JCR, Q1).</li>
     <li>Jul 2025: (paper)My paper has been accepted by <strong><font color='red'>Best Bachelor Thesis Award </font></strong> (Top 1/300).</li>
     <li>Aug 2024: (paper)Our paper has been accepted by <strong><font color='red'>KDD 2024</font></strong> (CCF-A). See you in Spain!</li>
@@ -72,4 +73,4 @@ My current research is focused on addressing the real-world challenges encounter
 
 </ul>
 
-> Lastest Update: 9th Sep 2024 
+> Latest Update: 12th Aug 2026
