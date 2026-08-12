@@ -29,7 +29,7 @@ title: Blogs
 ### 2023
 
 - [Markdown使用教程](https://jiachenghuang.com//blogs/Markdown)<br>
-- [嵌入式设备接入小米IOT](https://iot.mi.com/fe-op)<br>
+- [无线感知实践｜WiFi CSI 联动米家智能灯](https://jiachenghuang.com/blogs/miot)<br>
 - [矿业风门控制系统](https://jiachenghuang.com//blogs/servo)<br>
 
 ### 收藏
