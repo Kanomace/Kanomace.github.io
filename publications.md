@@ -4,7 +4,7 @@ permalink: /publications/index.html
 title: publications
 ---
 
-> Lastest Update: 16th May 2026 &nbsp; [中文版本 (Chinese Version)](https://jiachenghuang.com/file/publication-zh/)
+> Latest Update: 12th Aug 2026 &nbsp; [中文版本 (Chinese Version)](https://jiachenghuang.com/file/publication-zh/)
 
 ## Journal Paper
 
@@ -39,6 +39,10 @@ title: publications
 <br> Los Angeles, USA. September, 2023.
 
 ## Working Manuscript
+
+- PRISM: Human Point Cloud Reconstruction via Skeleton-Guided Diffusion from MmWave Radar
+<br> **Jiacheng Huang** et al.
+<br> *Manuscript under review, 2026*.
 
 - Papar for national undergraduate research and training project: Development of Self-balancing Unicycle Robot Based on Visual Inspection.<br>**Jiacheng Huang**, Shujuan Chen, Guoxun Zhang<br>Under working
 
