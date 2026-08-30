@@ -4,7 +4,7 @@ permalink: /file/research-zh/index.html
 title: research-zh
 ---
 
-> Lastest Update: 16th May 2026 &nbsp; [English Version (英文)](https://jiachenghuang.com/research/)
+> Latest Update: 30th Aug 2026 &nbsp; [English Version (英文)](https://jiachenghuang.com/research/)
 
 ## 实习经历
 
@@ -37,7 +37,7 @@ title: research-zh
 <br>**AuraSense：基于毫米波雷达的隐私保护型人体感知系统**
 <br>• 描述：研发AuraSense，一套基于毫米波雷达的隐私保护型人体感知系统，实现无接触式生命体征监测（心率、呼吸频率、血压）与实时行为识别，面向养老照护、医院病房及智慧城市应急响应场景
 <br>• 职责：负责多任务雷达信号处理的深度学习算法研发，构建从原始点云到行为分类的端到端推理链路；设计实时可视化软件界面与临床预警模块；主导系统集成与硬件平台的部署调试，完成真实场景下的实时演示验证
-<br>• 成果：入选新加坡国家研究基金会（NRF）执行的国家级 **GRIP 深科技创业计划**；入选南洋理工大学 **<font color='red'>蔡天宝巅峰奖</font>**；落地MVP初期产品并在黄廷方综合医院进行试点；相关论文已投稿至NeurIPS 2026
+<br>• 成果：入选新加坡国家研究基金会（NRF）执行的国家级 **GRIP 深科技创业计划**；入选南洋理工大学 **<font color='red'>蔡天宝巅峰奖</font>**；落地MVP初期产品并在黄廷方综合医院进行试点；一篇相关论文已被RADAR 2026录用，另一篇已投稿至NeurIPS 2026
 
 
 - **国家级本科生创新创业训练计划**，王武教授指导（研究经费¥20,000），2023.06 – 2025.06

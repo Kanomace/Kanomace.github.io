@@ -4,7 +4,7 @@ permalink: /publications/index.html
 title: publications
 ---
 
-> Latest Update: 12th Aug 2026 &nbsp; [中文版本 (Chinese Version)](https://jiachenghuang.com/file/publication-zh/)
+> Latest Update: 30th Aug 2026 &nbsp; [中文版本 (Chinese Version)](https://jiachenghuang.com/file/publication-zh/)
 
 ## Journal Paper
 
@@ -17,6 +17,11 @@ title: publications
 <br> *IEEE Internet of Things Journal, 2026*. (JCR, Q1).
 
 ## Conference Paper
+
+- [Dual-Path Temporal-Spatial Modeling for Short-Window Vital-Sign Measurement Using mmWave Radar](https://www.radarconf.cn/2026/)
+<br> **Jiacheng Huang**, Song Hu, Yuan Liu, Andy W. H. Khong, Long Tian, Fugui Qi
+<br> *2026 CIE International Conference on Radar (RADAR 2026)*
+<br> Xi'an, China. Oct, 2026. (Accepted)
 
 - [Securing Billion Bluetooth Low Energy Devices Using Cyber-Physical Analysis and Deep Learning Techniques](https://kdd2024.kdd.org/undergraduate-consortium/)
 <br> Hanlin Cai, Yucheng Fang, **Jiacheng Huang**, Honglin Liao, Meng Yuan, Zhezhuang Xu 

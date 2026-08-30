@@ -4,7 +4,7 @@ permalink: /file/publication-zh/index.html
 title: publications-zh
 ---
 
-> Lastest Update: 16th May 2026 &nbsp; [English Version (英文)](https://jiachenghuang.com/publications/)
+> Latest Update: 30th Aug 2026 &nbsp; [English Version (英文)](https://jiachenghuang.com/publications/)
 
 ## 期刊论文
 
@@ -17,6 +17,11 @@ title: publications-zh
 <br> *IEEE Internet of Things Journal, 2026*。（JCR, Q1）.
 
 ## 会议论文
+
+- [基于双路径时空建模的毫米波雷达短时窗生命体征测量](https://www.radarconf.cn/2026/)
+<br> **黄家成**, 胡松, 刘源, Andy W. H. Khong, 田龙, 齐富贵
+<br> *2026 CIE 雷达国际会议（RADAR 2026）*
+<br> 中国西安. 2026年10月.（已录用）
 
 - [使用物理-网络分析和深度学习技术保护数十亿蓝牙低功耗设备](https://kdd2024.kdd.org/undergraduate-consortium/)
 <br> 蔡翰林, 方宇成, **黄家成**, 廖泓霖, 袁蒙, 徐哲庄

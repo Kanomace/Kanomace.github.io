@@ -4,7 +4,7 @@ permalink: /research/index.html
 title: research
 ---
 
-> Lastest Update: 16th May 2026 &nbsp; [中文版本 (Chinese Version)](https://jiachenghuang.com/file/research-zh/)
+> Latest Update: 30th Aug 2026 &nbsp; [中文版本 (Chinese Version)](https://jiachenghuang.com/file/research-zh/)
 
 ## Internship Experience
 
@@ -50,7 +50,7 @@ Developing AuraSense, a privacy-preserving human sensing system based on mmWave 
 <br>• **Responsibilities**:  
 Developing deep learning algorithms for multi-task radar signal processing, building an end-to-end inference pipeline from raw point cloud to activity classification; designing a real-time visualisation interface and clinical alerting module; leading system integration and hardware platform deployment and debugging, completing real-scene real-time demonstration;
 <br>• **Achievement**:  
-Selected for NRF's national-level **GRIP Deep Tech Startup Programme**; selected for NTU <strong><font color='red'>Chua Thian Poh Pinnacle Prize</font></strong>; deployed MVP pilot at Tan Tock Seng Hospital; related paper submitted to NeurIPS 2026.
+Selected for NRF's national-level **GRIP Deep Tech Startup Programme**; selected for NTU <strong><font color='red'>Chua Thian Poh Pinnacle Prize</font></strong>; deployed MVP pilot at Tan Tock Seng Hospital; one related paper accepted by RADAR 2026 and another submitted to NeurIPS 2026.
 
 
 - **Development of a Self-balancing Unicycle Robot Based on Visual Inspection**(Jun 2023 - Jun 2025)
