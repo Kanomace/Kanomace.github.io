@@ -4,7 +4,7 @@ permalink: /blogs/index.html
 title: Blogs
 ---
 
-> Lastest Update: 12th Aug 2026
+> Latest Update: 25th Sep 2026
 
 ## Chinese Blogs
 

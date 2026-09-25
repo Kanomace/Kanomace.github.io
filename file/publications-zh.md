@@ -4,7 +4,7 @@ permalink: /file/publication-zh/index.html
 title: publications-zh
 ---
 
-> Latest Update: 30th Aug 2026 &nbsp; [English Version (英文)](https://jiachenghuang.com/publications/)
+> Latest Update: 25th Sep 2026 &nbsp; [English Version (英文)](https://jiachenghuang.com/publications/)
 
 ## 期刊论文
 
@@ -17,6 +17,11 @@ title: publications-zh
 <br> *IEEE Internet of Things Journal, 2026*。（JCR, Q1）.
 
 ## 会议论文
+
+- [PRISM：基于骨架引导扩散的毫米波雷达人体点云重建](https://mmwave-human.github.io/PRISM/)
+<br> **黄家成** 等
+<br> *神经信息处理系统大会（NeurIPS 2026，主会海报，CCF-A）*
+<br> 2026年（已录用）
 
 - [基于双路径时空建模的毫米波雷达短时窗生命体征测量](https://www.radarconf.cn/2026/)
 <br> **黄家成**, 胡松, 刘源, Andy W. H. Khong, 田龙, 齐富贵

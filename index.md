@@ -48,6 +48,7 @@ My current research is focused on addressing the real-world challenges encounter
 ## News and Updates
 
 <ul class="timeline">
+    <li>Sep 2026: (paper)Our paper PRISM has been accepted by <strong><font color='red'>NeurIPS 2026</font></strong> Main Track as a poster (CCF-A).</li>
     <li>Aug 2026: (paper)Our paper on short-window vital-sign measurement has been accepted by <strong><font color='red'>RADAR 2026</font></strong>. See you in Xi'an!</li>
     <li>Jun 2026: (award)Selected for the <strong><font color='red'>Chua Thian Poh Pinnacle Prize</font></strong> at Nanyang Technological University.</li>
     <li>May 2026: (paper)Our paper RoPEHAR has been accepted by <strong><font color='red'>IEEE Internet of Things Journal</font></strong> (JCR, Q1).</li>
@@ -74,4 +75,4 @@ My current research is focused on addressing the real-world challenges encounter
 
 </ul>
 
-> Latest Update: 30th Aug 2026
+> Latest Update: 25th Sep 2026

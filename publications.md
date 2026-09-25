@@ -4,7 +4,7 @@ permalink: /publications/index.html
 title: publications
 ---
 
-> Latest Update: 30th Aug 2026 &nbsp; [中文版本 (Chinese Version)](https://jiachenghuang.com/file/publication-zh/)
+> Latest Update: 25th Sep 2026 &nbsp; [中文版本 (Chinese Version)](https://jiachenghuang.com/file/publication-zh/)
 
 ## Journal Paper
 
@@ -17,6 +17,11 @@ title: publications
 <br> *IEEE Internet of Things Journal, 2026*. (JCR, Q1).
 
 ## Conference Paper
+
+- [PRISM: Human Point Cloud Reconstruction via Skeleton-Guided Diffusion from MmWave Radar](https://mmwave-human.github.io/PRISM/)
+<br> **Jiacheng Huang** et al.
+<br> *Conference on Neural Information Processing Systems (NeurIPS 2026, Main Track, Poster, CCF-A)*
+<br> 2026. (Accepted)
 
 - [Dual-Path Temporal-Spatial Modeling for Short-Window Vital-Sign Measurement Using mmWave Radar](https://www.radarconf.cn/2026/)
 <br> **Jiacheng Huang**, Song Hu, Yuan Liu, Andy W. H. Khong, Long Tian, Fugui Qi
@@ -44,10 +49,6 @@ title: publications
 <br> Los Angeles, USA. September, 2023.
 
 ## Working Manuscript
-
-- PRISM: Human Point Cloud Reconstruction via Skeleton-Guided Diffusion from MmWave Radar
-<br> **Jiacheng Huang** et al.
-<br> *Manuscript under review, 2026*.
 
 - Papar for national undergraduate research and training project: Development of Self-balancing Unicycle Robot Based on Visual Inspection.<br>**Jiacheng Huang**, Shujuan Chen, Guoxun Zhang<br>Under working
 
